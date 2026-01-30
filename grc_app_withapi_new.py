@@ -617,7 +617,7 @@ with left_col:
 
     selected_question = st.selectbox("Choose a sample GRC question", sample_questions)
     user_query = st.text_area("Ask a GRC question (policies/controls)", height=80, value=selected_question)
-    extra_instruction = st.text_area("Optional additional instruction to LLM (e.g., tone, verbosity)", height=50, value="Answer succinctly for an auditor.")
+    extra_instruction = st.text_area("Optional additional instruction to LLM (e.g., tone, verbosity)", height=50, value="Answer in clear summary for an auditor.")
     submit = st.button("Retrieve & Explain (RAG)")
 
     retrieved_container = st.container()
@@ -963,4 +963,5 @@ if submit:
     
 st.markdown("---")
 st.caption("Notes: Keep policies & controls in protected storage. Rebuild the FAISS index after updating policies/controls.")
+
 
