@@ -23,6 +23,7 @@ except Exception:
     HAS_GPT4ALL = False
 
 from pathlib import Path
+api_key = st.secrets["MISTRAL_API_KEY"]
 
 # -------- Base paths (Cloud-safe) --------
 BASE_DIR = Path(__file__).resolve().parent
@@ -962,3 +963,4 @@ if submit:
     
 st.markdown("---")
 st.caption("Notes: Keep policies & controls in protected storage. Rebuild the FAISS index after updating policies/controls.")
+
