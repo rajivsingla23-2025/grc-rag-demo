@@ -1,0 +1,622 @@
+{
+  "passages": [
+    "Acceptable Use Policy (AUP)  \n1.0 Objective / Purpose  \nThe purpose of this policy is to define acceptable and unacceptable use  of ABC Organization\u2019s \ninformation systems, data, devices, applications, and network resources.  \nThis policy ensures that all users act in a manner that:  \n\u2022 Protects ABC Organization data and systems  \n\u2022 Supports Zero Trust principles  \n\u2022 Reduces legal, security, and operational risk  \n\u2022 Aligns user behavior with established security and access control policies  \nAcceptable use is a condition of access , not an entitlement.  \n \n2.0 Scope  \nThis policy applies to:  \n\u2022 All employees, executives, contractors, vendors, partners, interns, and third -party \nusers  \n\u2022 All ABC Organization assets, including:  \no End-user devices (laptops, desktops, mobile devices)  \no Networks and remote access services  \no Applications, SaaS platforms, and cloud services  \no Data in",
+    "r devices (laptops, desktops, mobile devices)  \no Networks and remote access services  \no Applications, SaaS platforms, and cloud services  \no Data in all states (In -Transit, At -Rest, In-Use)  \n\u2022 All usage contexts:  \no On-premises  \no Remote  \no Hybrid  \no BYOD (where permitted)  \n \n3.0 General Acceptable Use Principles  \n3.1 Business Use and Professional Conduct  \n\u2022 ABC Organization systems must be used primarily for legitimate business purposes  \n\u2022 Limited personal use may be permitted if it:  \no Does not interfere with work duties  \no Does not violate any policy  \no Does not introduce security risk  \n\u2022 Users must act professionally and ethically at all times  \n \n3.2 Identity, Authentication, and Access Responsibility  \n\u2022 Users must:  \no Use only their own assigned identity  \no Never share credentials, tokens, or authentication devices  \n\u2022 Users are responsible for:  \no All activity",
+    "o Use only their own assigned identity  \no Never share credentials, tokens, or authentication devices  \n\u2022 Users are responsible for:  \no All activity performed under their identity  \n\u2022 Circumventing authentication or access controls is strictly prohibited  \nReferenced Policies:  \n\u2022 Identity Onboarding and Offboarding Policy  \n\u2022 Passwordless & MFA Policy  \n\u2022 Zero Trust Adaptive & Continuous Verification Policy  \n \n4.0 Acceptable and Prohibited Activities  \n4.1 Data Handling and Protection  \nUsers must handle data in accordance with its classification and sensitivity.  \nAcceptable Use:  \n\u2022 Access only data required for assigned job responsibilities  \n\u2022 Use approved tools and applications for data processing  \n\u2022 Follow encryption and data protection requirements  \nProhibited Use:  \n\u2022 Accessing data without a legitimate business need  \n\u2022 Copying sensitive data to unauthorized locations  \n\u2022",
+    "tection requirements  \nProhibited Use:  \n\u2022 Accessing data without a legitimate business need  \n\u2022 Copying sensitive data to unauthorized locations  \n\u2022 Storing ABC data in personal cloud services or personal email  \n\u2022 Bypassing data masking or in -use protections  \nReferenced Policies:  \n\u2022 Enterprise Encryption Policy  \n\u2022 Data In-Transit (Secure Exchange) Policy  \n\u2022 Data In-Store / At -Rest Policy  \n\u2022 Data In-Use (Secure Processing) Policy  \n \n4.2 Remote Access and Network Usage  \n\u2022 Remote access must use approved Zero Trust access mechanisms  \n\u2022 Users must not:  \no Expose internal services to the internet  \no Establish unauthorized tunnels, VPNs, or proxies  \no Connect to ABC systems from compromised or non -compliant devices  \nReferenced Policy:  \n\u2022 Remote Access Policy (Zero Trust Secure Access)  \n \n4.3 Device and Endpoint Usage  \n\u2022 Only approved and compliant devices may access ABC sys",
+    "licy:  \n\u2022 Remote Access Policy (Zero Trust Secure Access)  \n \n4.3 Device and Endpoint Usage  \n\u2022 Only approved and compliant devices may access ABC systems  \n\u2022 Users must not:  \no Disable security controls (EDR, disk encryption, firewall)  \no Install unauthorized or pirated software  \no Jailbreak, root, or otherwise weaken device security  \n \n4.4 Privileged and Administrative Activities  \n\u2022 Privileged access must:  \no Be requested, approved, and time -bound  \no Be used only for approved tasks  \n\u2022 Users must not:  \no Attempt to gain permanent or standing admin access  \no Perform high -risk actions without proper approval  \nReferenced Policy:  \n\u2022 Privileged Authentication Policy (JIT & JEA)  \n \n4.5 Non-Human Identities and Automation  \n\u2022 Users must not:  \no Create unmanaged service accounts, bots, or API keys  \no Hardcode secrets into scripts or applications  \n\u2022 Automation must follow appro",
+    "must not:  \no Create unmanaged service accounts, bots, or API keys  \no Hardcode secrets into scripts or applications  \n\u2022 Automation must follow approved identity and secret management practices  \nReferenced Policy:  \n\u2022 Non-Human Identity & Secret Management Policy  \n \n4.6 Prohibited Security Circumvention  \nThe following actions are strictly prohibited:  \n\u2022 Attempting to bypass authentication, authorization, or monitoring controls  \n\u2022 Introducing malware, backdoors, or unauthorized scanning tools  \n\u2022 Conducting unauthorized penetration testing or vulnerability scanning  \n\u2022 Using ABC resources for illegal, unethical, or abusive activities  \n \n5.0 Monitoring, Privacy, and Expectations  \n\u2022 ABC Organization reserves the right to:  \no Monitor system usage  \no Inspect logs and access activity  \no Investigate suspected policy violations  \n\u2022 Users should have no expectation of privacy  when usi",
+    "ystem usage  \no Inspect logs and access activity  \no Investigate suspected policy violations  \n\u2022 Users should have no expectation of privacy  when using ABC Organization systems, \nsubject to applicable laws and internal policies  \n \n6.0 Reporting Responsibilities  \n\u2022 Users must promptly report:  \no Suspected security incidents  \no Credential compromise  \no Policy violations  \n\u2022 Failure to report known issues may itself be considered a violation  \nReferenced Policies:  \n\u2022 Zero Trust Adaptive & Continuous Verification Policy  \n\u2022 Remote Access Policy  \n \n7.0 Exceptions  \n\u2022 Exceptions to this policy must:  \no Be documented  \no Be approved by appropriate management and security leadership  \no Be time-bound and reviewed periodically  \n\u2022 Unauthorized exceptions are prohibited  \n \n8.0 Enforcement  \nFailure to comply with this policy may result in disciplinary action in accordance with ABC \nOrgan",
+    "zed exceptions are prohibited  \n \n8.0 Enforcement  \nFailure to comply with this policy may result in disciplinary action in accordance with ABC \nOrganization\u2019s personnel policies and procedures.  \n\u2022 Employees may face corrective action up to and including termination  \n\u2022 Contractors, vendors, and third parties may face contract termination  \n\u2022 Access to systems may be immediately suspended in cases of serious violation  \n \n9.0 Review and Maintenance  \nThis policy shall be reviewed at least annually  or upon:  \n\u2022 Significant changes to technology or threat landscape  \n\u2022 Updates to related security policies  \n\u2022 Security incidents involving misuse of systems or data",
+    "Data In-Store / At -Rest (Secure Persistence) Policy  \n1.0 Objective / Purpose  \nThe purpose of this policy is to ensure that all data stored on physical media, databases, file \nsystems, backups, snapshots, and cloud storage services is protected against unauthorized \naccess, disclosure, alteration, and loss , including risks arising from insider threats, \ncredential compromise, misconfiguration, and physical theft . \nThis policy enforces strong encryption, access controls, and key management practices  to \nensure that stored data remains secure throughout its lifecycle, regardless of storage location or \nunderlying infrastructure.  \n \n2.0 Scope  \nThis policy applies to:  \n\u2022 All data owned, processed, or managed by ABC Organization  \n\u2022 All storage media and persistence layers, including:  \no On-premises servers and storage systems  \no Cloud storage services (object, block, and file stora",
+    "storage media and persistence layers, including:  \no On-premises servers and storage systems  \no Cloud storage services (object, block, and file storage)  \no Databases (relational, NoSQL, data warehouses)  \no Backup systems, snapshots, archives, and replicas  \no End-user devices where organizational data is stored  \n\u2022 All employees, contractors, vendors, systems, and applications that store or manage \nABC Organization data  \n \n3.0 Definitions and Policy Requirements  \n3.1 AES-256 Baseline Encryption  \nAll data at rest must be encrypted using strong, industry -approved cryptographic algorithms . \n\u2022 AES-256 is the minimum standard for symmetric encryption  \n\u2022 Encryption must apply to:  \no Databases and file systems  \no Cloud storage buckets and containers  \no Backups, snapshots, and archival storage  \no Portable media and endpoint storage  \n\u2022 Full-disk encryption is mandatory for endpoints",
+    "nd containers  \no Backups, snapshots, and archival storage  \no Portable media and endpoint storage  \n\u2022 Full-disk encryption is mandatory for endpoints and servers where applicable  \nRationale:  \nEncryption ensures that data remains unreadable and unusable if storage media is lost, stolen, \nor accessed without authorization.  \n \n3.2 Encryption Key Management and Separation of Duties  \nABC Organization shall maintain strict separation between encrypted data  and encryption \nkeys. \n\u2022 Encryption keys must be stored and managed using:  \no Hardware Security Modules (HSMs), or  \no Approved cloud -based Key Management Services (KMS)  \n\u2022 Database administrators and storage administrators must not have permissions to:  \no Create, rotate, disable, or delete encryption keys  \n\u2022 Key management activities must include:  \no Periodic key rotation  \no Secure key backup and recovery  \no Immediate revocati",
+    "delete encryption keys  \n\u2022 Key management activities must include:  \no Periodic key rotation  \no Secure key backup and recovery  \no Immediate revocation upon compromise or role change  \nRationale:  \nSeparation of duties prevents unauthorized decryption and reduces the risk of insider abuse.  \n \n3.3 Granular Data Classification and Access Enforcement  \nAll data must be classified and labeled according to sensitivity and business impact.  \n\u2022 Minimum classification levels include:  \no Public  \no Internal  \no Confidential  \no Highly Sensitive / Regulated  \n\u2022 Data classification must be:  \no Automatically applied where possible  \no Enforced through access control policies  \n\u2022 Access decisions must consider:  \no User identity and role  \no Device compliance and security posture  \no Contextual risk factors  \nExample:  \n\u201cOnly HR Managers using compliant, organization -managed devices may access H",
+    "compliance and security posture  \no Contextual risk factors  \nExample:  \n\u201cOnly HR Managers using compliant, organization -managed devices may access Highly \nSensitive  data.\u201d  \nRationale:  \nClassification -driven controls ensure least -privilege access and regulatory alignment.  \n \n3.4 Immutable Storage, Logging, and Versioning  \nFor critical and regulated data stores, data integrity and recoverability  must be protected.  \n\u2022 Deletion and overwrite operations must be restricted  \n\u2022 Storage systems should support:  \no Versioning  \no Immutable or WORM (Write Once, Read Many) storage  \n\u2022 Logs and historical versions must be protected from modification or deletion  \n\u2022 Ransomware protection controls must be enabled where supported  \nRationale:  \nImmutability protects against data tampering, ransomware attacks, and accidental loss.  \n \n3.5 Backup, Replication, and Resilience  \n\u2022 All critical d",
+    "Immutability protects against data tampering, ransomware attacks, and accidental loss.  \n \n3.5 Backup, Replication, and Resilience  \n\u2022 All critical data must be backed up securely and encrypted at rest  \n\u2022 Backups must be:  \no Segregated from primary environments  \no Tested periodically for restoration  \n\u2022 Replicated data must maintain the same encryption and access controls as primary \ndata  \n \n3.6 Third -Party and Cloud Storage  \n\u2022 Third-party and cloud providers must meet or exceed ABC Organization\u2019s encryption and \nkey management requirements  \n\u2022 Customer -managed keys (CMK) are preferred where supported  \n\u2022 Shared or provider -managed keys require documented risk acceptance  \n \n3.7 Monitoring, Logging, and Auditability  \n\u2022 Access to encrypted data and encryption keys must be logged  \n\u2022 Logs must be protected from tampering and retained per retention policy  \n\u2022 Monitoring systems mu",
+    "ncrypted data and encryption keys must be logged  \n\u2022 Logs must be protected from tampering and retained per retention policy  \n\u2022 Monitoring systems must detect:  \no Unauthorized access attempts  \no Key misuse or abnormal access patterns  \no Changes to encryption or storage configurations  \n \n4.0 Enforcement  \nFailure to comply with this policy may result in disciplinary action in accordance with ABC \nOrganization\u2019s personnel policies and procedures.  \n\u2022 Employees may face corrective action up to and including termination  \n\u2022 Contractors and vendors may face contract termination and legal action  \n\u2022 Policy exceptions must be formally documented, approved, and reviewed periodically  \n \n5.0 Review and Maintenance  \nThis policy shall be reviewed at least annually  or upon:  \n\u2022 Significant regulatory or legal changes  \n\u2022 Material changes in data storage architecture  \n\u2022 Identification of secu",
+    "d at least annually  or upon:  \n\u2022 Significant regulatory or legal changes  \n\u2022 Material changes in data storage architecture  \n\u2022 Identification of security incidents or control failures",
+    "Data In-Transit (Secure Exchange) Policy  \n1.0 Objective / Purpose  \nThe purpose of this policy is to ensure that all data transmitted between users, devices, \napplications, services, and third -party systems is protected against interception, \nunauthorized disclosure, modification, and replay attacks . \nThis policy establishes mandatory encryption, authentication, and integrity controls  for data \nin transit, consistent with Zero Trust principles , where no network connection is inherently \ntrusted, whether internal or external.  \n \n2.0 Scope  \nThis policy applies to:  \n\u2022 All data classified, processed, transmitted, or accessed by ABC Organization  \n\u2022 All transmission paths, including:  \no Internal network communications  \no Internet-based communications  \no Cloud, hybrid, and on -premise environments  \no APIs, microservices, and service meshes  \no Remote access, third -party integratio",
+    "communications  \no Cloud, hybrid, and on -premise environments  \no APIs, microservices, and service meshes  \no Remote access, third -party integrations, and machine -to-machine \ncommunications  \n\u2022 All users, systems, applications, devices, contractors, and vendors that transmit ABC \nOrganization data  \n \n3.0 Definitions and Policy Requirements  \n3.1 Mandatory Mutual TLS (mTLS)  \nAll service -to-service and application -to-application communications must use Mutual \nTransport Layer Security (mTLS) . \n\u2022 Both client and server must authenticate each other using X.509 certificates  \n\u2022 Certificates must be issued by approved internal or trusted external Certificate \nAuthorities (CAs)  \n\u2022 Certificate lifecycle management (issuance, rotation, revocation, expiration) must be \nenforced  \n\u2022 Self-signed certificates are prohibited unless explicitly approved with documented risk \nacceptance  \nRatio",
+    "ocation, expiration) must be \nenforced  \n\u2022 Self-signed certificates are prohibited unless explicitly approved with documented risk \nacceptance  \nRationale:  \nmTLS enforces strong identity verification  and prevents impersonation, man -in-the-middle \n(MITM), and unauthorized lateral movement within the environment.  \n \n3.2 Protocol Hardening and Cryptographic Standards  \nABC Organization shall enforce strong cryptographic protocols and configurations for all data in \ntransit.  \nThe following are prohibited:  \n\u2022 SSL (all versions)  \n\u2022 TLS 1.0 and TLS 1.1  \n\u2022 FTP, Telnet, HTTP (unencrypted), and other clear -text protocols  \n\u2022 Weak or deprecated cipher suites (e.g., RC4, DES, 3DES, MD5)  \nPermitted standards include:  \n\u2022 TLS 1.3 (preferred)  \n\u2022 TLS 1.2 with AEAD cipher suites (e.g., AES -GCM, ChaCha20 -Poly1305)  \n\u2022 Secure alternatives such as SFTP, HTTPS, SMTPS, and secure API gateways  \nR",
+    "\u2022 TLS 1.2 with AEAD cipher suites (e.g., AES -GCM, ChaCha20 -Poly1305)  \n\u2022 Secure alternatives such as SFTP, HTTPS, SMTPS, and secure API gateways  \nRationale:  \nProtocol hardening ensures resistance to cryptographic downgrade attacks and aligns with \nmodern regulatory and industry best practices.  \n \n3.3 Identity -Aware Proxy (IAP) and Zero Trust Access  \nAll access to applications and data over the network must be mediated by an Identity-Aware \nProxy (IAP)  or equivalent Zero Trust access mechanism.  \n\u2022 Access decisions must be based on:  \no Strong user identity verification  \no Device posture and compliance  \no Contextual risk signals (location, behavior, session risk)  \n\u2022 Traditional VPN -based broad network access must be avoided where possible  \n\u2022 Access must be limited to specific applications or services , not entire networks  \nRationale:  \nThis enforces least privilege access ,",
+    "possible  \n\u2022 Access must be limited to specific applications or services , not entire networks  \nRationale:  \nThis enforces least privilege access , reduces attack surface, and aligns with Zero Trust \narchitecture by validating identity before any data transmission occurs.  \n \n3.4 Perfect Forward Secrecy (PFS)  \nAll encryption configurations for data in transit must support Perfect Forward Secrecy (PFS) . \n\u2022 Session keys must be ephemeral  \n\u2022 Compromise of long -term private keys must not expose historical session data  \n\u2022 Approved key exchange mechanisms include ECDHE or equivalent  \nRationale:  \nPFS ensures long -term confidentiality even if encryption keys are compromised at a later time.  \n \n3.5 Internal Network Encryption  \nAll internal traffic, including east -west traffic between services, containers, virtual machines, \nand microservices, must be encrypted by default.  \n\u2022 Interna",
+    "al traffic, including east -west traffic between services, containers, virtual machines, \nand microservices, must be encrypted by default.  \n\u2022 Internal networks must be treated as untrusted  \n\u2022 Encryption exemptions require documented justification, compensating controls, and \nrisk acceptance approval  \n \n3.6 Third -Party and External Communications  \n\u2022 All data exchanges with third parties must use encrypted channels  \n\u2022 Third-party encryption standards must meet or exceed ABC Organization requirements  \n\u2022 Contracts and SLAs must include data -in-transit security obligations  \n \n3.7 Monitoring, Logging, and Detection  \n\u2022 Encryption failures, certificate errors, and protocol violations must be logged  \n\u2022 Logs must be protected from tampering and retained per log retention policy  \n\u2022 Security monitoring must detect:  \no Unencrypted traffic  \no Downgrade attempts  \no Unauthorized protocol",
+    "g and retained per log retention policy  \n\u2022 Security monitoring must detect:  \no Unencrypted traffic  \no Downgrade attempts  \no Unauthorized protocol usage  \n \n4.0 Enforcement  \nFailure to comply with this policy may result in disciplinary action in accordance with ABC \nOrganization\u2019s personnel policies and procedures.  \n\u2022 Employees may face corrective action up to and including termination  \n\u2022 Contractors, vendors, or third parties may face contract termination and legal remedies  \n\u2022 Exceptions must be formally approved, documented, and reviewed periodically  \n \n5.0 Review and Maintenance  \nThis policy shall be reviewed at least annually  or upon:  \n\u2022 Significant changes in regulatory requirements  \n\u2022 Major architectural or technology changes  \n\u2022 Identification of material security incidents",
+    "ges  \n\u2022 Identification of material security incidents",
+    "Data In-Use (Secure Processing) Policy  \n1.0 Objective / Purpose  \nThe purpose of this policy is to ensure that data remains protected while actively processed, \naccessed, displayed, or manipulated in memory (RAM), CPU, application runtime, or user \nsessions . \nThis policy addresses risks associated with memory scraping, insider misuse, screen \ncapture, debugging abuse, malware, and compromised operating systems , and enforces \nZero Trust assumptions  that even trusted hosts and users may be compromised.  \n \n2.0 Scope  \nThis policy applies to:  \n\u2022 All data owned, processed, or managed by ABC Organization  \n\u2022 All processing environments, including:  \no Application runtimes and services  \no User workstations and endpoints  \no Virtual machines, containers, and serverless platforms  \no Cloud, on -premises, and hybrid environments  \n\u2022 All users, applications, administrators, contractors, and",
+    ", containers, and serverless platforms  \no Cloud, on -premises, and hybrid environments  \n\u2022 All users, applications, administrators, contractors, and third parties that access or \nprocess ABC Organization data  \n \n3.0 Definitions and Policy Requirements  \n3.1 Confidential Computing and Trusted Execution Environments  \nFor Crown Jewel , Highly Sensitive , and regulated data (e.g., PII, PHI, financial data, trade \nsecrets), processing must occur within Trusted Execution Environments (TEEs)  or equivalent \nconfidential computing technologies.  \n\u2022 Data must remain encrypted in memory and CPU registers  \n\u2022 Access to plaintext data must be restricted to authorized code only  \n\u2022 Even privileged system software (OS, hypervisor) must not be able to inspect protected \ndata  \n\u2022 Approved technologies may include:  \no Hardware -based enclaves  \no Secure virtual enclaves  \no Cloud confidential computi",
+    "inspect protected \ndata  \n\u2022 Approved technologies may include:  \no Hardware -based enclaves  \no Secure virtual enclaves  \no Cloud confidential computing services  \nRationale:  \nConfidential computing protects against advanced threats, including compromised hosts, \nprivileged insider abuse, and memory scraping attacks.  \n \n3.2 Dynamic Data Masking (DDM) and Contextual Redaction  \nSensitive data must be dynamically masked or redacted during active use for non -privileged \nusers.  \n\u2022 Masking must be applied in real time based on:  \no User role and authorization  \no Session context  \no Business need -to-know  \n\u2022 Only the minimum data required to perform a task may be exposed  \n\u2022 Full data visibility requires explicit approval and elevated authorization  \nExample:  \nCustomer Support users may view only masked payment or identity data (e.g., XXXX -XXXX-\n1234).  \nRationale:  \nDynamic masking re",
+    "rization  \nExample:  \nCustomer Support users may view only masked payment or identity data (e.g., XXXX -XXXX-\n1234).  \nRationale:  \nDynamic masking reduces insider risk and limits exposure during legitimate processing.  \n \n3.3 Endpoint Controls: Clipboard, Print, and Download Restrictions  \nFor Highly Sensitive  or regulated data, endpoint data loss prevention (DLP) and session \ncontrols must be enforced.  \n\u2022 The following capabilities must be restricted or disabled where technically feasible:  \no Copy and paste  \no Print screen and screen recording  \no Local file download or export  \n\u2022 Controls must be adaptive based on:  \no Data classification  \no User role  \no Device compliance and trust level  \nRationale:  \nEndpoint restrictions prevent accidental or malicious data exfiltration during active use.  \n \n3.4 Watermarking and User Attribution  \nAll sensitive data displayed on screen must",
+    "accidental or malicious data exfiltration during active use.  \n \n3.4 Watermarking and User Attribution  \nAll sensitive data displayed on screen must include user attribution controls . \n\u2022 Watermarks may be visible or invisible  \n\u2022 Watermarks must include:  \no User identifier  \no Timestamp or session identifier  \n\u2022 Attribution must be tamper -resistant  \nRationale:  \nWatermarking deters misuse and enables forensic traceability in the event of data leakage.  \n \n3.5 Privileged Access and Debugging Restrictions  \n\u2022 Access to live production data for debugging or troubleshooting must be:  \no Time-bound  \no Logged and monitored  \no Explicitly approved  \n\u2022 Debug tools, memory dumps, and tracing utilities must not expose plaintext sensitive \ndata  \n\u2022 Production access must follow just-in-time (JIT)  and least privilege  principles  \n \n3.6 Application and Runtime Protections  \n\u2022 Applications mus",
+    "\u2022 Production access must follow just-in-time (JIT)  and least privilege  principles  \n \n3.6 Application and Runtime Protections  \n\u2022 Applications must minimize in -memory data retention  \n\u2022 Sensitive data must be cleared from memory when no longer required  \n\u2022 Secrets must not be hardcoded or stored in plaintext within application memory longer \nthan necessary  \n \n3.7 Monitoring, Logging, and Detection  \n\u2022 Access to sensitive data during processing must be logged  \n\u2022 Monitoring systems must detect:  \no Abnormal data access patterns  \no Screen capture or data scraping attempts  \no Privilege escalation during active sessions  \n\u2022 Logs must be protected against tampering and retained per retention policies  \n \n4.0 Enforcement  \nFailure to comply with this policy may result in disciplinary action in accordance with ABC \nOrganization\u2019s personnel policies and procedures.  \n\u2022 Employees may face",
+    "ly with this policy may result in disciplinary action in accordance with ABC \nOrganization\u2019s personnel policies and procedures.  \n\u2022 Employees may face corrective action up to and including termination  \n\u2022 Contractors and vendors may face contract termination and legal remedies  \n\u2022 Exceptions must be documented, approved, and periodically reviewed  \n \n5.0 Review and Maintenance  \nThis policy shall be reviewed at least annually  or upon:  \n\u2022 Changes in regulatory requirements  \n\u2022 Adoption of new processing technologies  \n\u2022 Identification of material security incidents or control gaps",
+    "Enterprise Encryption Policy  \n1.0 Objective / Purpose  \nThe purpose of this policy is to establish a consistent, organization -wide cryptographic \nframework  to protect the confidentiality, integrity, and controlled use of ABC Organization \ndata across its entire lifecycle.  \nThis policy defines approved encryption algorithms, key management principles, and \ncryptographic governance , and serves as the foundational control referenced by:  \n\u2022 Data In-Transit (Secure Exchange) Policy  \n\u2022 Data In-Store / At -Rest (Secure Persistence) Policy  \n\u2022 Data In-Use (Secure Processing) Policy  \nEncryption is a mandatory control , not an optional safeguard, and must be applied by default \nunless a formally approved exception exists.  \n \n2.0 Scope  \nThis policy applies to:  \n\u2022 All data owned, processed, transmitted, or stored by ABC Organization  \n\u2022 All environments, including:  \no Cloud, on -premises",
+    "policy applies to:  \n\u2022 All data owned, processed, transmitted, or stored by ABC Organization  \n\u2022 All environments, including:  \no Cloud, on -premises, and hybrid systems  \no Endpoints, servers, containers, and workloads  \n\u2022 All cryptographic use cases, including:  \no Data encryption  \no Key management  \no Certificate management  \no Tokenization and masking  \n\u2022 All personnel, applications, services, and non -human identities involved in \ncryptographic operations  \n \n3.0 Encryption Principles  \n3.1 Encryption by Default  \n\u2022 Encryption must be enabled by default  for all supported systems and platforms  \n\u2022 Disabling encryption requires:  \no Documented business justification  \no Risk assessment  \no Formal approval  \n\u2022 Encryption must be applied regardless of:  \no Network location  \no Trust zone  \no Deployment model  \nRationale:  \nEncryption compensates for inevitable failures in access cont",
+    "d regardless of:  \no Network location  \no Trust zone  \no Deployment model  \nRationale:  \nEncryption compensates for inevitable failures in access control, configuration, or network \nsecurity.  \n \n3.2 Data State Alignment  \nEncryption requirements must align with the data state , as governed by existing policies:  \n\u2022 Data In-Transit \u2192 Governed by Data In-Transit (Secure Exchange) Policy  \n\u2022 Data At-Rest \u2192 Governed by Data In-Store / At -Rest (Secure Persistence) Policy  \n\u2022 Data In-Use \u2192 Governed by Data In-Use (Secure Processing) Policy  \nThis policy defines cryptographic standards and governance , while the above policies define \nwhere and when encryption must be applied . \n \n4.0 Cryptographic Standards and Requirements  \n4.1 Approved Encryption Algorithms  \nOnly industry -recognized, strong cryptographic algorithms may be used.  \n\u2022 Symmetric Encryption  \no Minimum: AES -256  \n\u2022 Asymmetr",
+    "ption Algorithms  \nOnly industry -recognized, strong cryptographic algorithms may be used.  \n\u2022 Symmetric Encryption  \no Minimum: AES -256  \n\u2022 Asymmetric Encryption  \no RSA (minimum 2048 -bit) or Elliptic Curve equivalents  \n\u2022 Hashing  \no Secure hash functions only  \n\u2022 Key Exchange  \no Ephemeral, forward -secure mechanisms  \nWeak, deprecated, or proprietary cryptographic algorithms are prohibited.  \n \n4.2 Encryption for Data In Transit  \nEncryption of data during transmission must comply with the Data In-Transit (Secure \nExchange) Policy . \nAt a minimum:  \n\u2022 All data in transit must be encrypted  \n\u2022 Mutual authentication must be used for service -to-service communication  \n\u2022 Perfect Forward Secrecy must be enforced  \n \n4.3 Encryption for Data At Rest  \nEncryption of stored data must comply with the Data In-Store / At -Rest (Secure Persistence) \nPolicy. \nAt a minimum:  \n\u2022 All stored data m",
+    "a At Rest  \nEncryption of stored data must comply with the Data In-Store / At -Rest (Secure Persistence) \nPolicy. \nAt a minimum:  \n\u2022 All stored data must be encrypted using approved algorithms  \n\u2022 Encryption must apply to:  \no Databases  \no Filesystems  \no Backups and snapshots  \n\u2022 Keys must be separated from encrypted data  \n \n4.4 Encryption for Data In Use  \nEncryption during active processing must comply with the Data In-Use (Secure Processing) \nPolicy. \nAt a minimum:  \n\u2022 Highly sensitive data must be protected from memory scraping and runtime inspection  \n\u2022 Plaintext exposure must be minimized  \n\u2022 Debugging and diagnostic access must not expose sensitive data  \n \n5.0 Key Management and Cryptographic Control  \n5.1 Centralized Key Management  \nAll cryptographic keys must be managed using approved centralized key management \nsystems . \n\u2022 Keys must not be:  \no Hardcoded  \no Stored in pla",
+    "ent  \nAll cryptographic keys must be managed using approved centralized key management \nsystems . \n\u2022 Keys must not be:  \no Hardcoded  \no Stored in plaintext  \no Embedded in source code or configuration files  \n\u2022 Key usage must be logged and monitored  \n \n5.2 Separation of Duties  \n\u2022 Key management functions must be separated from data administration  \n\u2022 Personnel managing encryption keys must not have routine access to encrypted data  \n\u2022 Privileged key operations must require explicit approval  \n \n5.3 Key Rotation and Lifecycle Management  \n\u2022 Cryptographic keys must:  \no Be rotated periodically  \no Be revoked immediately upon compromise  \n\u2022 Keys must have:  \no Defined creation dates  \no Expiration or review dates  \n\u2022 Retired keys must be securely destroyed or archived per policy  \n \n6.0 Tokenization, Masking, and Derived Protections  \nWhere encryption alone is insufficient or impractical",
+    "curely destroyed or archived per policy  \n \n6.0 Tokenization, Masking, and Derived Protections  \nWhere encryption alone is insufficient or impractical:  \n\u2022 Tokenization may be used to replace sensitive values  \n\u2022 Masking may be applied for data display and processing  \n\u2022 Derived data must not re -expose sensitive values  \nThese controls must align with the Data In-Use and Data Classification  controls.  \n \n7.0 Application and System Responsibilities  \n\u2022 Applications must:  \no Use approved cryptographic libraries  \no Avoid custom or homegrown encryption  \n\u2022 Systems must:  \no Enforce encryption configuration baselines  \no Prevent insecure downgrade or bypass  \n\u2022 Development teams must:  \no Follow secure key usage patterns  \no Avoid storing secrets in code repositories  \n \n8.0 Monitoring, Logging, and Assurance  \n\u2022 All encryption and key usage events must be logged  \n\u2022 Monitoring must detec",
+    "crets in code repositories  \n \n8.0 Monitoring, Logging, and Assurance  \n\u2022 All encryption and key usage events must be logged  \n\u2022 Monitoring must detect:  \no Unauthorized key access  \no Weak or disabled encryption  \no Configuration drift  \n\u2022 Cryptographic controls must be periodically reviewed and tested  \n \n9.0 Exceptions and Risk Acceptance  \n\u2022 Encryption exceptions must:  \no Be documented  \no Be time-bound  \no Include compensating controls  \n\u2022 Exceptions must be reviewed periodically and revoked when no longer required  \n \n10.0 Enforcement  \nFailure to comply with this policy may result in disciplinary action in accordance with ABC \nOrganization\u2019s personnel policies and procedures.  \n\u2022 Employees may face corrective action up to and including termination  \n\u2022 Contractors and vendors may face contract termination  \n\u2022 Systems found non -compliant may be disconnected or restricted  \n \n11.0",
+    "ing termination  \n\u2022 Contractors and vendors may face contract termination  \n\u2022 Systems found non -compliant may be disconnected or restricted  \n \n11.0 Review and Maintenance  \nThis policy shall be reviewed at least annually  or upon:  \n\u2022 Introduction of new cryptographic technologies  \n\u2022 Changes to data protection architecture  \n\u2022 Identification of cryptographic weaknesses or incidents",
+    "Employees / Contractors Identity Onboarding and Offboarding Policy  \n1.0 Objective / Purpose  \nThe purpose of this policy is to ensure that identity lifecycle management is automated, \naccurate, and governed by authoritative business processes , eliminating manual \nprovisioning errors and reducing the risk of unauthorized access.  \nThis policy establishes a single, trusted identity source , enforces timely access provisioning \nand revocation , and ensures that access rights consistently reflect an individual\u2019s current \nemployment or engagement status  throughout their lifecycle with ABC Organization.  \n \n2.0 Scope  \nThis policy applies to:  \n\u2022 All employees, interns, contractors, consultants, vendors, and third -party \npersonnel  \n\u2022 All identity types, including:  \no Human user identities  \no Privileged user accounts  \no Application and service accounts associated with individuals  \n\u2022 Al",
+    "ntity types, including:  \no Human user identities  \no Privileged user accounts  \no Application and service accounts associated with individuals  \n\u2022 All systems, applications, directories, and platforms where identities or access \npermissions are managed  \n\u2022 All identity lifecycle stages: onboarding, role change, leave of absence, and offboarding  \n \n3.0 Definitions and Policy Requirements  \n3.1 Single Source of Truth (SSoT) for Identity  \nThe ABC Organization Human Resources Information System (HRIS)  is the sole authoritative \nsource for identity creation, modification, and termination events.  \n\u2022 No user account may be created in:  \no Active Directory  \no Azure AD / Entra ID  \no SaaS applications  \no Any other identity store  \nwithout a corresponding, active HRIS record  \n\u2022 Manual account creation is prohibited except under documented, time -bound \nemergency procedures with approval",
+    "orresponding, active HRIS record  \n\u2022 Manual account creation is prohibited except under documented, time -bound \nemergency procedures with approval  \n\u2022 All identity attributes (name, department, job title, manager, employment status) must \noriginate from HRIS  \nRationale:  \nUsing HR as the authoritative source eliminates identity drift and enforces business -driven \naccess decisions.  \n \n3.2 Automated Birthright Provisioning  \nUpon creation of an identity in HRIS, the Identity and Access Management (IAM) platform must \nautomatically provision a standard set of baseline access (\u201cbirthright access\u201d) . \n\u2022 Birthright access is determined by:  \no Department  \no Job title  \no Employment type (employee, contractor, vendor)  \n\u2022 Examples of birthright access include:  \no Corporate email  \no Collaboration tools  \no VPN or Zero Trust access  \n\u2022 Provisioning must occur within 30 minutes of the offic",
+    "ht access include:  \no Corporate email  \no Collaboration tools  \no VPN or Zero Trust access  \n\u2022 Provisioning must occur within 30 minutes of the official start date and time  \nRationale:  \nAutomated birthright provisioning ensures productivity from day one while maintaining \nconsistency and least privilege.  \n \n3.3 Role Changes and Access Updates  \n\u2022 Any change in department, job role, or manager must trigger:  \no Automatic removal of obsolete access  \no Automatic assignment of new role -appropriate access  \n\u2022 Access must reflect the current role only , not historical roles  \n\u2022 Temporary role -based access must be time -bound and automatically revoked  \n \n3.4 Offboarding and \u201cLeaver\u201d Service Level Agreements (SLAs)  \nAll access revocation must be automated and triggered directly from HRIS termination events.  \nInvoluntary Termination  \n\u2022 All access must be revoked immediately  upon HR te",
+    "ust be automated and triggered directly from HRIS termination events.  \nInvoluntary Termination  \n\u2022 All access must be revoked immediately  upon HR termination trigger  \n\u2022 Active sessions must be terminated  \n\u2022 Credentials, tokens, and keys must be invalidated  \nVoluntary Resignation  \n\u2022 All access must be revoked by 5:00 PM local time on the last working day  \n\u2022 Access must not extend beyond the documented end date  \nRationale:  \nTimely deprovisioning prevents unauthorized access after separation and reduces insider risk.  \n \n3.5 Orphaned Account Detection and Remediation  \nABC Organization shall perform automated reconciliation to detect orphaned or unauthorized \naccounts.  \n\u2022 A monthly reconciliation scan  must:  \no Compare active directory accounts against active HRIS records  \no Identify accounts without a corresponding active HR identity  \n\u2022 Orphaned accounts must be:  \no Automatic",
+    "ory accounts against active HRIS records  \no Identify accounts without a corresponding active HR identity  \n\u2022 Orphaned accounts must be:  \no Automatically disabled  \no Reviewed and investigated by identity administrators  \n\u2022 Exceptions must be documented and approved  \nRationale:  \nOrphaned accounts represent a high -risk access vector and must be eliminated proactively.  \n \n3.6 Privileged Access During Onboarding and Offboarding  \n\u2022 Privileged access must never be granted as birthright access  \n\u2022 Privileged roles require:  \no Explicit approval  \no Time-bound access  \no Just-in-time activation  \n\u2022 Privileged access must be revoked immediately upon role change or termination  \n \n3.7 Third -Party and Contractor Identities  \n\u2022 Contractor and vendor identities must:  \no Have defined start and end dates  \no Be sponsored by an internal owner  \n\u2022 Access must automatically expire at the contract",
+    "endor identities must:  \no Have defined start and end dates  \no Be sponsored by an internal owner  \n\u2022 Access must automatically expire at the contract end date unless explicitly extended  \n\u2022 Shared accounts for third parties are prohibited  \n \n3.8 Monitoring, Logging, and Accountability  \n\u2022 All provisioning and deprovisioning events must be logged  \n\u2022 Logs must include:  \no Identity identifier  \no Action performed  \no Timestamp  \no Source system  \n\u2022 Identity lifecycle logs must be protected and retained per retention policy  \n \n4.0 Enforcement  \nFailure to comply with this policy may result in disciplinary action in accordance with ABC \nOrganization\u2019s personnel policies and procedures.  \n\u2022 Employees may be subject to corrective action up to and including termination  \n\u2022 Contractors, vendors, or third -party personnel may face contract termination  \n\u2022 Policy exceptions must be documented,",
+    "and including termination  \n\u2022 Contractors, vendors, or third -party personnel may face contract termination  \n\u2022 Policy exceptions must be documented, approved, and reviewed periodically  \n \n5.0 Review and Maintenance  \nThis policy shall be reviewed at least annually  or upon:  \n\u2022 Changes to HR, IAM, or directory systems  \n\u2022 Organizational restructuring  \n\u2022 Identification of access control failures or incidents",
+    "Non-Human Identity (NHI) & Secret Management Policy  \n1.0 Objective / Purpose  \nThe purpose of this policy is to govern the creation, usage, and lifecycle of Non-Human \nIdentities (NHIs) \u2014including service accounts, application identities, bots, API keys, and \nautomation credentials \u2014which often operate with elevated privileges and lack direct human \noversight.  \nThis policy ensures that all NHIs are explicitly owned, minimally privileged, continuously \nmonitored, and protected against credential leakage , while prioritizing secretless \nauthentication mechanisms  wherever technically feasible.  \n \n2.0 Scope  \nThis policy applies to:  \n\u2022 All Non-Human Identities  used across ABC Organization  \n\u2022 All assets and environments, including:  \no Cloud and on -premises servers  \no Containers, workloads, and serverless functions  \no Workstations, laptops, and automation tools  \no Network, security",
+    "oud and on -premises servers  \no Containers, workloads, and serverless functions  \no Workstations, laptops, and automation tools  \no Network, security, and infrastructure devices  \n\u2022 All lifecycle stages of NHIs:  \no Creation  \no Operation  \no Rotation  \no Decommissioning  \n \n3.0 Definitions and Policy Requirements  \n3.1 Inventory, Ownership, and Accountability  \nEvery Non -Human Identity must be explicitly inventoried and owned.  \n\u2022 Each NHI must have:  \no A named Human Owner  (Project Manager or Lead Engineer)  \no A defined business purpose  \no An associated system or application  \n\u2022 NHIs without a registered owner or purpose must:  \no Trigger an automated notification  \no Be disabled after a 30-day remediation window  \n\u2022 Ownership must be reviewed periodically and updated upon role or project changes  \nRationale:  \nUnowned machine identities are a major attack vector and operational r",
+    "e reviewed periodically and updated upon role or project changes  \nRationale:  \nUnowned machine identities are a major attack vector and operational risk.  \n \n3.2 Secret Elimination and Modern Authentication  \nDevelopment and platform teams must eliminate static secrets  wherever possible.  \n\u2022 Preferred authentication methods include:  \no Workload Identity Federation (OIDC)  \no Managed identities or instance profiles  \n\u2022 Static API keys and client secrets must be treated as temporary and high risk  \n\u2022 New systems must not introduce static secrets unless explicitly approved  \nRationale:  \nSecretless authentication reduces exposure to leakage, reuse, and long -lived credentials.  \n \n3.3 Secret Storage, Vaulting, and Protection  \nWhen static secrets are unavoidable:  \n\u2022 Secrets must be:  \no Stored only in the ABC Enterprise Vault  (e.g., HashiCorp Vault, Azure Key Vault)  \no Encrypted at re",
+    "ecrets are unavoidable:  \n\u2022 Secrets must be:  \no Stored only in the ABC Enterprise Vault  (e.g., HashiCorp Vault, Azure Key Vault)  \no Encrypted at rest and in transit  \n\u2022 Secrets must never be:  \no Hardcoded in source code  \no Stored in configuration files  \no Exposed in logs or documentation  \n\u2022 Access to secrets must follow least privilege  and be logged  \n \n3.4 Automated Secret Rotation and Break -Glass Handling  \n\u2022 All static secrets must be:  \no Automatically rotated every 60 days or less  \no Rotated immediately upon suspected compromise  \n\u2022 Manual rotation is permitted only under:  \no Documented Emergency Break -Glass procedures  \no Recorded and approved actions  \n\u2022 Break-glass secrets must:  \no Be tightly scoped  \no Trigger alerts upon use  \no Be rotated immediately after use  \nRationale:  \nFrequent rotation limits the usefulness of compromised credentials.  \n \n3.5 Least Privileg",
+    "pon use  \no Be rotated immediately after use  \nRationale:  \nFrequent rotation limits the usefulness of compromised credentials.  \n \n3.5 Least Privilege and Just -In-Time Access for NHIs  \n\u2022 NHIs must be granted only the permissions required  to perform their specific function  \n\u2022 Broad or wildcard permissions are prohibited  \n\u2022 Where supported, Just-In-Time (JIT)  access must be used for high -risk operations  \n\u2022 Privileged NHIs must be subject to enhanced monitoring  \n \n3.6 Secret Scanning and DevSecOps Enforcement  \nAll CI/CD pipelines must include automated secret scanning  controls.  \n\u2022 Source code, configuration files, and build artifacts must be scanned for:  \no API keys  \no Tokens  \no Passwords  \no Private keys  \n\u2022 Commits containing secrets must:  \no Be blocked from merging  \no Trigger automatic alerts to the Security team  \n\u2022 Identified secrets must be:  \no Revoked immediately",
+    "secrets must:  \no Be blocked from merging  \no Trigger automatic alerts to the Security team  \n\u2022 Identified secrets must be:  \no Revoked immediately  \no Rotated  \no Investigated for misuse  \nRationale:  \nEarly detection prevents secret leakage from propagating to production systems.  \n \n3.7 Lifecycle Management and Decommissioning  \n\u2022 NHIs must have defined:  \no Creation dates  \no Expiration or review dates  \n\u2022 NHIs must be disabled or deleted when:  \no The associated application is retired  \no The project ends  \no The human owner departs  \n\u2022 Periodic reviews must identify:  \no Dormant identities  \no Over-privileged identities  \n \n3.8 Monitoring, Logging, and Anomaly Detection  \n\u2022 All NHI authentication and secret access events must be logged  \n\u2022 Monitoring systems must detect:  \no Anomalous usage patterns  \no Access from unexpected locations or workloads  \no Privilege escalation attempt",
+    "ed  \n\u2022 Monitoring systems must detect:  \no Anomalous usage patterns  \no Access from unexpected locations or workloads  \no Privilege escalation attempts  \n\u2022 Alerts must be routed to the Security Operations team for investigation  \n \n3.9 Third -Party and External Non -Human Identities  \n\u2022 Third-party NHIs must:  \no Be explicitly approved  \no Have internal ownership  \no Use the same secret management controls  \n\u2022 Shared or unmanaged machine credentials are prohibited  \n \n4.0 Enforcement  \nFailure to comply with this policy may result in disciplinary action in accordance with ABC \nOrganization\u2019s personnel policies and procedures.  \n\u2022 Employees may face corrective action up to and including termination  \n\u2022 Contractors, vendors, or third parties may face contract termination  \n\u2022 Violations may result in immediate revocation of NHI access  \n\u2022 Policy exceptions must be documented, approved, and",
+    "may face contract termination  \n\u2022 Violations may result in immediate revocation of NHI access  \n\u2022 Policy exceptions must be documented, approved, and periodically reviewed  \n \n5.0 Review and Maintenance  \nThis policy shall be reviewed at least annually  or upon:  \n\u2022 Introduction of new automation or identity technologies  \n\u2022 Material changes to CI/CD pipelines or infrastructure  \n\u2022 Security incidents involving secrets or machine identities",
+    "Passwordless & MFA Policy  \n1.0 Objective / Purpose  \nThe purpose of this policy is to eliminate reliance on shared secrets (passwords)  and \nsignificantly reduce the risk of credential theft, phishing, replay attacks, and account \ntakeover  by enforcing hardware -backed, phishing -resistant authentication mechanisms . \nThis policy establishes a passwordless -first authentication model , with stronger controls for \nprivileged and high -risk identities, ensuring that authentication strength is proportionate to risk \nand business impact.  \n \n2.0 Scope  \nThis policy applies to:  \n\u2022 All employees, executives, contractors, vendors, and third -party personnel  \n\u2022 All authentication events involving:  \no Corporate Single Sign -On (SSO)  \no Privileged access systems  \no Administrative consoles  \no Cloud, on -premises, and SaaS applications  \n\u2022 All user types, including:  \no Standard users  \no Pr",
+    "ged access systems  \no Administrative consoles  \no Cloud, on -premises, and SaaS applications  \n\u2022 All user types, including:  \no Standard users  \no Privileged users  \no Executive and high -risk accounts  \n \n3.0 Definitions and Policy Requirements  \n3.1 Standardization on Passwordless Authentication (FIDO2)  \nAll primary authentication to ABC Organization\u2019s Single Sign -On (SSO)  platform must use \nFIDO2 / WebAuthn \u2013based authentication . \n\u2022 Approved authenticators include:  \no Windows Hello for Business  \no Apple Face ID / Touch ID  \no Physical security keys (USB, NFC, or Bluetooth)  \n\u2022 Authentication must be:  \no Hardware -backed  \no Cryptographically bound to the device  \no Resistant to phishing and replay attacks  \n\u2022 Password -based primary authentication is prohibited where passwordless methods are \nsupported  \nRationale:  \nFIDO2 eliminates shared secrets and ensures credentials cann",
+    "ary authentication is prohibited where passwordless methods are \nsupported  \nRationale:  \nFIDO2 eliminates shared secrets and ensures credentials cannot be reused, phished, or \nintercepted.  \n \n3.2 Risk-Based Authentication Tiers  \nAuthentication requirements must be enforced based on user risk and privilege level . \nTier 1 \u2013 Privileged and High -Risk Accounts  \n\u2022 Applies to:  \no Administrators  \no Executives  \no Security-sensitive roles  \n\u2022 Requirements:  \no Mandatory use of physical hardware security keys  \no No fallback to weaker authentication methods  \no Multiple registered keys recommended  \nTier 2 \u2013 Standard Workforce Users  \n\u2022 Applies to general employees and non -privileged users  \n\u2022 Requirements:  \no Platform authenticators (biometrics)  \no Mobile-based passkeys  \no Hardware keys permitted but not mandatory  \nRationale:  \nTiered enforcement ensures stronger authentication for i",
+    "trics)  \no Mobile-based passkeys  \no Hardware keys permitted but not mandatory  \nRationale:  \nTiered enforcement ensures stronger authentication for identities with higher impact and risk.  \n \n3.3 Deprecation of Legacy Authentication Factors  \nLegacy authentication factors are officially deprecated and must not be used as primary or \nfallback authentication methods.  \nDeprecated methods include:  \n\u2022 SMS-based OTP  \n\u2022 Voice-based OTP  \n\u2022 Knowledge -based authentication (security questions)  \n\u2022 Standalone OTP applications not bound to hardware  \n\u2022 Use of deprecated factors requires:  \no A documented policy exception  \no Business justification  \no Executive or security approval  \no Automatic expiration after 90 days  \nRationale:  \nLegacy factors are vulnerable to phishing, SIM -swapping, and social engineering attacks.  \n \n3.4 Account Recovery and Identity Proofing  \nRecovery of passwordles",
+    "rs are vulnerable to phishing, SIM -swapping, and social engineering attacks.  \n \n3.4 Account Recovery and Identity Proofing  \nRecovery of passwordless accounts must follow a strong identity verification process . \n\u2022 Approved recovery methods include:  \no Live video identity verification  \no In-person verification with valid identification  \n\u2022 Automated recovery using:  \no Secondary email addresses  \no Security questions  \no SMS or voice callbacks  \nis prohibited  \n\u2022 Recovery events must be logged and reviewed  \nRationale:  \nWeak recovery processes undermine strong authentication controls.  \n \n3.5 Privileged Session and Step -Up Authentication  \n\u2022 Privileged actions must require step-up authentication , even for authenticated users  \n\u2022 Privileged sessions must:  \no Be time-bound  \no Be explicitly approved  \no Require re -authentication using phishing -resistant factors  \n\u2022 Continuous aut",
+    "ileged sessions must:  \no Be time-bound  \no Be explicitly approved  \no Require re -authentication using phishing -resistant factors  \n\u2022 Continuous authentication signals (device posture, risk context) must be evaluated \nduring privileged sessions  \n \n3.6 Device Trust and Authenticator Protection  \n\u2022 Authenticators must be protected by:  \no Device PINs or biometrics  \no Secure enclaves or trusted hardware  \n\u2022 Lost, stolen, or compromised authenticators must be:  \no Reported immediately  \no Revoked without delay  \n\u2022 Authenticator inventory must be maintained for privileged users  \n \n3.7 Third -Party and External User Authentication  \n\u2022 Contractors and vendors must comply with the same authentication requirements as \ninternal users  \n\u2022 Shared or generic accounts are prohibited  \n\u2022 Authentication strength must not be downgraded for external identities  \n \n3.8 Monitoring, Logging, and Detecti",
+    "or generic accounts are prohibited  \n\u2022 Authentication strength must not be downgraded for external identities  \n \n3.8 Monitoring, Logging, and Detection  \n\u2022 All authentication and recovery events must be logged  \n\u2022 Logs must capture:  \no User identity  \no Authentication method  \no Device and authenticator identifier  \no Timestamp and outcome  \n\u2022 Monitoring must detect:  \no Authentication bypass attempts  \no Use of deprecated factors  \no Anomalous authentication behavior  \n \n4.0 Enforcement  \nFailure to comply with this policy may result in disciplinary action in accordance with ABC \nOrganization\u2019s personnel policies and procedures.  \n\u2022 Employees may face corrective action up to and including termination  \n\u2022 Contractors and vendors may face contract termination  \n\u2022 Policy exceptions must be documented, approved, and reviewed periodically  \n \n5.0 Review and Maintenance  \nThis policy shall",
+    "contract termination  \n\u2022 Policy exceptions must be documented, approved, and reviewed periodically  \n \n5.0 Review and Maintenance  \nThis policy shall be reviewed at least annually  or upon:  \n\u2022 Introduction of new authentication technologies  \n\u2022 Material changes to identity or access infrastructure  \n\u2022 Detection of authentication -related security incidents",
+    "Privileged Authentication Policy (Just -In-Time & Just -Enough Access)  \n1.0 Objective / Purpose  \nThe purpose of this policy is to enforce the Principle of Least Privilege (PoLP)  by ensuring that \nadministrative and elevated access rights are temporary, explicitly approved, task -specific, \nand fully auditable . \nThis policy eliminates standing administrative access, minimizes blast radius in the event of \ncompromise, and ensures that privileged access is granted only when required, for the \nshortest necessary duration, and with clearly defined intent . \n \n2.0 Scope  \nThis policy applies to:  \n\u2022 All employees, administrators, contractors, vendors, and third -party personnel  \n\u2022 All infrastructure and platforms managed by or on behalf of ABC Organization , \nincluding:  \no Cloud environments (IaaS, PaaS, SaaS)  \no On-premises infrastructure  \no Identity directories  \no Network, security,",
+    "BC Organization , \nincluding:  \no Cloud environments (IaaS, PaaS, SaaS)  \no On-premises infrastructure  \no Identity directories  \no Network, security, and application platforms  \n\u2022 All privileged roles, including:  \no System administrators  \no Cloud administrators  \no Security administrators  \no Database and application administrators  \n \n3.0 Definitions and Policy Requirements  \n3.1 Zero Standing Privileges (ZSP)  \nABC Organization enforces a Zero Standing Privilege  model.  \n\u2022 No user shall have permanent or always -on administrative privileges  \n\u2022 All privileged roles must be configured as:  \no Eligible roles  requiring explicit activation  \n\u2022 Privileged access must not persist beyond the approved activation window  \n\u2022 Break-glass accounts must be:  \no Extremely limited in number  \no Strongly protected  \no Monitored and reviewed regularly  \nRationale:  \nEliminating standing privileges",
+    "ts must be:  \no Extremely limited in number  \no Strongly protected  \no Monitored and reviewed regularly  \nRationale:  \nEliminating standing privileges significantly reduces exposure to credential theft and insider \nmisuse.  \n \n3.2 Just-Enough Access (JEA) and Task -Based Roles  \nPrivileged access must be scoped to specific tasks , not broad administrative roles.  \n\u2022 Task-based roles must be defined based on:  \no Operational responsibility  \no Required actions only  \n\u2022 Examples:  \no A Database Administrator may:  \n\u25aa Restart services  \n\u25aa Restore backups  \nbut may not:  \n\u25aa Delete databases  \n\u25aa Modify encryption keys  \n\u2022 Broad, all -powerful roles must be avoided unless absolutely necessary and explicitly \napproved  \nRationale:  \nJEA limits blast radius and prevents accidental or malicious misuse of privileges.  \n \n3.3 Just-In-Time (JIT) Privilege Activation  \nAll privileged access must be g",
+    "st radius and prevents accidental or malicious misuse of privileges.  \n \n3.3 Just-In-Time (JIT) Privilege Activation  \nAll privileged access must be granted using Just-In-Time (JIT)  activation.  \n\u2022 Activation requires:  \no Explicit user request  \no Valid business justification  \no Reference to a ServiceNow or Jira ticket ID  \n\u2022 Privileges must be:  \no Automatically revoked at the end of the activation window  \no Non-renewable without re -approval  \n \n3.4 Privilege Activation Window  \n\u2022 The maximum duration  for any JIT privilege activation is 4 hours  \n\u2022 Shorter durations must be used where possible  \n\u2022 Extensions require:  \no Re-justification  \no Re-approval  \n\u2022 Concurrent privileged sessions must be minimized  \nRationale:  \nTime-bounded access reduces attack surface and limits exposure if credentials are \ncompromised.  \n \n3.5 Dual-Operator (Two -Person) Approval for High -Impact Actio",
+    "access reduces attack surface and limits exposure if credentials are \ncompromised.  \n \n3.5 Dual-Operator (Two -Person) Approval for High -Impact Actions  \nRequests for high-impact or irreversible actions  require additional approval.  \n\u2022 Examples include:  \no Deleting production data or backups  \no Modifying firewall or network security rules  \no Disabling security controls  \n\u2022 Approval must come from:  \no A direct manager, or  \no A designated senior peer  \n\u2022 Approvers must be independent of the requester  \nRationale:  \nDual-operator approval reduces the risk of mistakes, abuse, and insider threats.  \n \n3.6 Session Controls and Monitoring  \n\u2022 All privileged sessions must be:  \no Logged  \no Monitored  \no Associated with a unique activation request  \n\u2022 Session activities must be traceable to:  \no Individual identity  \no Time window  \no Approved task  \n\u2022 Session recording must be enabled wh",
+    "equest  \n\u2022 Session activities must be traceable to:  \no Individual identity  \no Time window  \no Approved task  \n\u2022 Session recording must be enabled where technically feasible  \n \n3.7 Emergency and Break -Glass Access  \n\u2022 Emergency access must:  \no Be strictly limited  \no Require documented justification  \no Trigger immediate alerts  \n\u2022 Use of break -glass accounts must:  \no Be reviewed post -incident  \no Result in credential rotation  \no Be reported to security leadership  \n \n3.8 Third -Party and Vendor Privileged Access  \n\u2022 Vendor and third -party privileged access must:  \no Use JIT and JEA controls  \no Be time-bound and task -specific  \no Require internal sponsorship  \n\u2022 Shared privileged accounts are prohibited  \n \n3.9 Logging, Auditing, and Accountability  \n\u2022 All privilege elevation and usage must be logged  \n\u2022 Logs must include:  \no Requestor identity  \no Role activated  \no Ticket r",
+    "and Accountability  \n\u2022 All privilege elevation and usage must be logged  \n\u2022 Logs must include:  \no Requestor identity  \no Role activated  \no Ticket reference  \no Approval details  \no Start and end time  \n\u2022 Logs must be protected from tampering and retained per retention policy  \n \n4.0 Enforcement  \nFailure to comply with this policy may result in disciplinary action in accordance with ABC \nOrganization\u2019s personnel policies and procedures.  \n\u2022 Employees may face corrective action up to and including termination  \n\u2022 Contractors and vendors may face contract termination  \n\u2022 Violations may result in immediate revocation of privileged access  \n\u2022 Policy exceptions must be documented, approved, and periodically reviewed  \n \n5.0 Review and Maintenance  \nThis policy shall be reviewed at least annually  or upon:  \n\u2022 Major infrastructure or tooling changes  \n\u2022 Identification of privileged access m",
+    "ance  \nThis policy shall be reviewed at least annually  or upon:  \n\u2022 Major infrastructure or tooling changes  \n\u2022 Identification of privileged access misuse  \n\u2022 Security incidents involving elevated access",
+    "Remote Access Policy (Zero Trust Secure Access)  \n1.0 Objective / Purpose  \nThe purpose of this policy is to ensure that all remote access to ABC Organization systems, \napplications, data, and infrastructure  is conducted in a secure, controlled, and \ncontinuously verified manner , without relying on implicit trust based on network location.  \nThis policy replaces traditional perimeter -based VPN trust with identity-centric, device -aware, \nand context -driven access controls , aligned with ABC Organization\u2019s Zero Trust operating \nmodel.  \n \n2.0 Scope  \nThis policy applies to:  \n\u2022 All employees, executives, contractors, vendors, and third -party users  \n\u2022 All forms of remote access, including:  \no Application access  \no Infrastructure and administrative access  \no API and service access  \n\u2022 All environments:  \no Cloud, on -premises, and hybrid  \n\u2022 All devices used for remote access:  \no",
+    "dministrative access  \no API and service access  \n\u2022 All environments:  \no Cloud, on -premises, and hybrid  \n\u2022 All devices used for remote access:  \no Corporate -managed  \no Personally owned (BYOD), where permitted  \n \n3.0 Policy Principles  \n3.1 Identity -Centric Remote Access  \nRemote access must be identity-driven, not network -driven.  \n\u2022 Every remote access request must be:  \no Authenticated using strong, phishing -resistant methods  \no Authorized based on role and context  \n\u2022 Access is granted to specific resources , not to the internal network  \nReferenced Policies:  \n\u2022 Passwordless & MFA Policy  \n\u2022 Identity Onboarding and Offboarding Policy  \n \n4.0 Remote Access Controls and Requirements  \n4.1 Authentication and Authorization  \n\u2022 All remote access must use:  \no Passwordless, phishing -resistant authentication  \no Multi-factor authentication without legacy fallbacks  \n\u2022 Privileged",
+    "remote access must use:  \no Passwordless, phishing -resistant authentication  \no Multi-factor authentication without legacy fallbacks  \n\u2022 Privileged remote access must comply with:  \no Just-In-Time (JIT)  \no Just-Enough Access (JEA)  \nReferenced Policies:  \n\u2022 Passwordless & MFA Policy  \n\u2022 Privileged Authentication (JIT & JEA) Policy  \n \n4.2 Device Trust and Posture Verification  \nRemote access is permitted only from trusted and verified devices . \n\u2022 Devices must meet minimum health requirements:  \no Up-to-date OS patches  \no Disk encryption enabled  \no Active endpoint protection  \n\u2022 Non-compliant devices may:  \no Be denied access, or  \no Be granted restricted, read -only access  \nReferenced Policy:  \n\u2022 Zero Trust Adaptive & Continuous Verification Policy  \n \n4.3 Zero Trust Network Access (ZTNA) Model  \nABC Organization adopts a Zero Trust Network Access (ZTNA)  approach.  \n\u2022 Users conne",
+    "fication Policy  \n \n4.3 Zero Trust Network Access (ZTNA) Model  \nABC Organization adopts a Zero Trust Network Access (ZTNA)  approach.  \n\u2022 Users connect to:  \no Specific applications or services  \no Defined protected surfaces  \n\u2022 Broad network -level VPN access is prohibited unless explicitly approved  \n\u2022 Internal services must not be directly exposed to the internet  \nReferenced Policy:  \n\u2022 Zero Trust Adaptive & Continuous Verification Policy  \n \n4.4 Continuous Verification and Session Monitoring  \nRemote access sessions must be continuously evaluated . \n\u2022 Context changes (device, network, location, behavior) must trigger:  \no Step-up authentication, or  \no Session restriction, or  \no Immediate termination  \n\u2022 High-risk signals must be escalated to Security Operations  \nReferenced Policy:  \n\u2022 Zero Trust Adaptive & Continuous Verification Policy  \n \n4.5 Encryption of Remote Access Traffi",
+    "alated to Security Operations  \nReferenced Policy:  \n\u2022 Zero Trust Adaptive & Continuous Verification Policy  \n \n4.5 Encryption of Remote Access Traffic  \nAll remote access traffic must be encrypted end -to-end.  \n\u2022 Encryption must be applied:  \no Before any data is transmitted  \no For both user -to-application and service -to-service traffic  \n\u2022 Legacy or weak encryption protocols are prohibited  \nReferenced Policies:  \n\u2022 Enterprise Encryption Policy  \n\u2022 Data In-Transit (Secure Exchange) Policy  \n \n4.6 Privileged Remote Access  \nRemote administrative access must be strictly controlled.  \n\u2022 Privileged remote access must:  \no Use JIT activation  \no Be task-specific (JEA)  \no Require explicit approval  \n\u2022 Privileged sessions must be:  \no Time-bound  \no Logged and monitored  \no Subject to session termination on risk escalation  \nReferenced Policy:  \n\u2022 Privileged Authentication (JIT & JEA) Po",
+    "bound  \no Logged and monitored  \no Subject to session termination on risk escalation  \nReferenced Policy:  \n\u2022 Privileged Authentication (JIT & JEA) Policy  \n \n4.7 Third -Party and Vendor Remote Access  \n\u2022 Vendor access must:  \no Be sponsored by an internal owner  \no Be time-bound  \no Be limited to specific applications or systems  \n\u2022 Shared vendor accounts are prohibited  \n\u2022 Vendor access must meet the same security standards as internal users  \nReferenced Policies:  \n\u2022 Identity Onboarding and Offboarding Policy  \n\u2022 Non-Human Identity & Secret Management Policy  \n \n4.8 Data Protection During Remote Access  \n\u2022 Data accessed remotely must comply with:  \no Encryption requirements  \no Data masking and in -use protections  \n\u2022 Sensitive data must not be stored locally unless explicitly approved  \nReferenced Policies:  \n\u2022 Data In-Store / At -Rest Policy  \n\u2022 Data In-Use (Secure Processing) Polic",
+    "not be stored locally unless explicitly approved  \nReferenced Policies:  \n\u2022 Data In-Store / At -Rest Policy  \n\u2022 Data In-Use (Secure Processing) Policy  \n \n4.9 Logging, Monitoring, and Incident Response  \n\u2022 All remote access events must be logged, including:  \no User identity  \no Device and network context  \no Accessed resources  \no Session duration  \n\u2022 High-risk or anomalous activity must:  \no Trigger alerts  \no Be investigated by the SOC  \nReferenced Policy:  \n\u2022 Zero Trust Adaptive & Continuous Verification Policy  \n \n5.0 Exceptions and Risk Acceptance  \n\u2022 Exceptions to this policy must:  \no Be documented  \no Be time-bound  \no Include compensating controls  \n\u2022 Exceptions must be reviewed periodically and revoked when no longer necessary  \n \n6.0 Enforcement  \nFailure to comply with this policy may result in disciplinary action in accordance with ABC \nOrganization\u2019s personnel policies an",
+    "6.0 Enforcement  \nFailure to comply with this policy may result in disciplinary action in accordance with ABC \nOrganization\u2019s personnel policies and procedures.  \n\u2022 Employees may face corrective action up to and including termination  \n\u2022 Contractors and vendors may face contract termination  \n\u2022 Systems found in violation may be disconnected or restricted  \n \n7.0 Review and Maintenance  \nThis policy shall be reviewed at least annually  or upon:  \n\u2022 Significant changes to remote access architecture  \n\u2022 Introduction of new Zero Trust access technologies  \n\u2022 Security incidents involving remote access",
+    "Zero Trust Adaptive & Continuous Verification Policy  \n1.0 Objective / Purpose  \nThe purpose of this policy is to eliminate implicit trust based on network location, device \nownership, or prior authentication , and replace it with a continuous, risk -based verification \nmodel aligned to the principle of \u201cNever Trust, Always Verify.\u201d  \nThis policy ensures that every access request and active session is continuously evaluated  \nusing dynamic contextual signals, and that access is granted, limited, elevated, or revoked in \nreal time  based on changing risk.  \n \n2.0 Scope  \nThis policy applies to:  \n\u2022 All employees, executives, contractors, vendors, partners, and third -party \npersonnel  \n\u2022 All access attempts to:  \no Applications and APIs  \no Data repositories and protected datasets  \no Infrastructure and administrative consoles  \n\u2022 All environments, including:  \no Cloud, on -premises, and",
+    "Data repositories and protected datasets  \no Infrastructure and administrative consoles  \n\u2022 All environments, including:  \no Cloud, on -premises, and hybrid systems  \no Corporate and remote access scenarios  \n\u2022 All identity types:  \no Standard users  \no Privileged users  \no High-risk and executive identities  \n \n3.0 Definitions and Policy Requirements  \n3.1 Risk-Based Access Scoring and Policy Engine  \nABC Organization shall implement a centralized Policy Engine  that assigns a dynamic Trust \nScore to every access request and active session.  \n\u2022 Access decisions must be made in real time using aggregated risk signals  \n\u2022 Trust Scores must be recalculated continuously during the session  \n\u2022 Access outcomes may include:  \no Allow  \no Allow with restrictions  \no Step-up authentication required  \no Session termination  \no Account lockdown  \nRationale:  \nStatic access decisions cannot account",
+    "th restrictions  \no Step-up authentication required  \no Session termination  \no Account lockdown  \nRationale:  \nStatic access decisions cannot account for changing threat conditions.  \n \n3.2 Device Health and Endpoint Verification  \nDevice posture must be continuously evaluated before and during access.  \nMinimum required signals include:  \n\u2022 Operating system patch level and version  \n\u2022 Disk encryption status  \n\u2022 Active and healthy EDR / antimalware agents  \n\u2022 Device ownership and management status  \n\u2022 Devices failing health checks must:  \no Be denied access, or  \no Be granted restricted, read -only access where justified  \nRationale:  \nCompromised or unmanaged devices represent a high -risk access vector.  \n \n3.3 Network Context and Behavioral Risk Signals  \nNetwork and behavioral context must be incorporated into risk scoring.  \nSignals include, but are not limited to:  \n\u2022 Geo-location",
+    "oral Risk Signals  \nNetwork and behavioral context must be incorporated into risk scoring.  \nSignals include, but are not limited to:  \n\u2022 Geo-location and geo -velocity analysis  \n\u2022 Known malicious IP address filtering  \n\u2022 Anomalous login behavior  \n\u2022 Sudden changes in network reputation or risk  \n\u2022 High-risk network signals must trigger:  \no Step-up authentication, or  \no Immediate session termination  \nRationale:  \nAttackers frequently exploit stolen credentials from untrusted networks.  \n \n3.4 Micro -Segmentation and Protected Surfaces  \nAccess shall be granted only to explicitly defined protected surfaces , not to entire networks.  \n\u2022 Protected surfaces may include:  \no Individual applications  \no Specific APIs  \no Sensitive datasets  \n\u2022 Access must be:  \no Explicitly requested  \no Policy-evaluated  \no Limited to required resources only  \nRationale:  \nMicro-segmentation limits latera",
+    "\u2022 Access must be:  \no Explicitly requested  \no Policy-evaluated  \no Limited to required resources only  \nRationale:  \nMicro-segmentation limits lateral movement and reduces blast radius.  \n \n3.5 Continuous Re -Authentication and Session Re -Evaluation  \nAuthentication is not a one -time event.  \n\u2022 Active sessions must be continuously monitored for:  \no Device posture changes  \no Network context changes  \no User behavior anomalies  \n\u2022 Context changes must trigger:  \no Step-up MFA, or  \no Session restriction, or  \no Immediate session termination  \nExample:  \nTransitioning from a trusted home network to public Wi -Fi may require re -authentication.  \nRationale:  \nRisk evolves during a session, not just at login.  \n \n3.6 Fallback, Lockout, and Automated Response  \nWhen High-Risk thresholds are reached:  \n\u2022 The system must automatically:  \no Lock the account or session  \no Revoke active token",
+    "Automated Response  \nWhen High-Risk thresholds are reached:  \n\u2022 The system must automatically:  \no Lock the account or session  \no Revoke active tokens  \no Terminate active sessions  \n\u2022 The Security Operations Center (SOC) must be notified immediately  \n\u2022 Manual investigation and recovery must follow documented incident procedures  \nRationale:  \nAutomated response minimizes dwell time during active attacks.  \n \n3.7 Privileged and High -Risk Identity Enforcement  \n\u2022 Privileged and executive accounts must:  \no Be subject to stricter risk thresholds  \no Require stronger step -up authentication  \no Have lower tolerance for anomalous behavior  \n\u2022 Privileged sessions must be continuously evaluated with heightened scrutiny  \n \n3.8 Third -Party and External Access  \n\u2022 Vendors and third parties must:  \no Be subject to the same continuous verification controls  \no Use managed or compliant devices",
+    "External Access  \n\u2022 Vendors and third parties must:  \no Be subject to the same continuous verification controls  \no Use managed or compliant devices where possible  \n\u2022 Risk tolerance for external identities must be lower than internal users  \n \n3.9 Logging, Monitoring, and Accountability  \n\u2022 All access decisions must be logged, including:  \no Trust Score  \no Risk signals evaluated  \no Access outcome  \n\u2022 Logs must be:  \no Protected from tampering  \no Retained per retention policy  \n\u2022 Security teams must regularly review:  \no High-risk access patterns  \no Lockouts and step -up events  \n \n4.0 Enforcement  \nFailure to comply with this policy may result in disciplinary action in accordance with ABC \nOrganization\u2019s personnel policies and procedures.  \n\u2022 Employees may face corrective action up to and including termination  \n\u2022 Contractors, vendors, and third parties may face contract terminatio",
+    "res.  \n\u2022 Employees may face corrective action up to and including termination  \n\u2022 Contractors, vendors, and third parties may face contract termination  \n\u2022 Violations may result in immediate access revocation  \n\u2022 Exceptions must be documented, approved, and reviewed periodically  \n \n5.0 Review and Maintenance  \nThis policy shall be reviewed at least annually  or upon:  \n\u2022 Material changes in identity, endpoint, or access infrastructure  \n\u2022 Adoption of new Zero Trust technologies  \n\u2022 Security incidents involving access compromise"
+  ],
+  "metadata": [
+    {
+      "type": "policy",
+      "filename": "Acceptable Use Policy_v1.0.pdf",
+      "source_path": "C:\\projects\\rag-playground\\grc\\policies\\Acceptable Use Policy_v1.0.pdf",
+      "chunk_id": 0
+    },
+    {
+      "type": "policy",
+      "filename": "Acceptable Use Policy_v1.0.pdf",
+      "source_path": "C:\\projects\\rag-playground\\grc\\policies\\Acceptable Use Policy_v1.0.pdf",
+      "chunk_id": 1
+    },
+    {
+      "type": "policy",
+      "filename": "Acceptable Use Policy_v1.0.pdf",
+      "source_path": "C:\\projects\\rag-playground\\grc\\policies\\Acceptable Use Policy_v1.0.pdf",
+      "chunk_id": 2
+    },
+    {
+      "type": "policy",
+      "filename": "Acceptable Use Policy_v1.0.pdf",
+      "source_path": "C:\\projects\\rag-playground\\grc\\policies\\Acceptable Use Policy_v1.0.pdf",
+      "chunk_id": 3
+    },
+    {
+      "type": "policy",
+      "filename": "Acceptable Use Policy_v1.0.pdf",
+      "source_path": "C:\\projects\\rag-playground\\grc\\policies\\Acceptable Use Policy_v1.0.pdf",
+      "chunk_id": 4
+    },
+    {
+      "type": "policy",
+      "filename": "Acceptable Use Policy_v1.0.pdf",
+      "source_path": "C:\\projects\\rag-playground\\grc\\policies\\Acceptable Use Policy_v1.0.pdf",
+      "chunk_id": 5
+    },
+    {
+      "type": "policy",
+      "filename": "Acceptable Use Policy_v1.0.pdf",
+      "source_path": "C:\\projects\\rag-playground\\grc\\policies\\Acceptable Use Policy_v1.0.pdf",
+      "chunk_id": 6
+    },
+    {
+      "type": "policy",
+      "filename": "Acceptable Use Policy_v1.0.pdf",
+      "source_path": "C:\\projects\\rag-playground\\grc\\policies\\Acceptable Use Policy_v1.0.pdf",
+      "chunk_id": 7
+    },
+    {
+      "type": "policy",
+      "filename": "Data At-Rest Policy_v2.0.pdf",
+      "source_path": "C:\\projects\\rag-playground\\grc\\policies\\Data At-Rest Policy_v2.0.pdf",
+      "chunk_id": 0
+    },
+    {
+      "type": "policy",
+      "filename": "Data At-Rest Policy_v2.0.pdf",
+      "source_path": "C:\\projects\\rag-playground\\grc\\policies\\Data At-Rest Policy_v2.0.pdf",
+      "chunk_id": 1
+    },
+    {
+      "type": "policy",
+      "filename": "Data At-Rest Policy_v2.0.pdf",
+      "source_path": "C:\\projects\\rag-playground\\grc\\policies\\Data At-Rest Policy_v2.0.pdf",
+      "chunk_id": 2
+    },
+    {
+      "type": "policy",
+      "filename": "Data At-Rest Policy_v2.0.pdf",
+      "source_path": "C:\\projects\\rag-playground\\grc\\policies\\Data At-Rest Policy_v2.0.pdf",
+      "chunk_id": 3
+    },
+    {
+      "type": "policy",
+      "filename": "Data At-Rest Policy_v2.0.pdf",
+      "source_path": "C:\\projects\\rag-playground\\grc\\policies\\Data At-Rest Policy_v2.0.pdf",
+      "chunk_id": 4
+    },
+    {
+      "type": "policy",
+      "filename": "Data At-Rest Policy_v2.0.pdf",
+      "source_path": "C:\\projects\\rag-playground\\grc\\policies\\Data At-Rest Policy_v2.0.pdf",
+      "chunk_id": 5
+    },
+    {
+      "type": "policy",
+      "filename": "Data At-Rest Policy_v2.0.pdf",
+      "source_path": "C:\\projects\\rag-playground\\grc\\policies\\Data At-Rest Policy_v2.0.pdf",
+      "chunk_id": 6
+    },
+    {
+      "type": "policy",
+      "filename": "Data At-Rest Policy_v2.0.pdf",
+      "source_path": "C:\\projects\\rag-playground\\grc\\policies\\Data At-Rest Policy_v2.0.pdf",
+      "chunk_id": 7
+    },
+    {
+      "type": "policy",
+      "filename": "Data In-Transit Policy_v2.0.pdf",
+      "source_path": "C:\\projects\\rag-playground\\grc\\policies\\Data In-Transit Policy_v2.0.pdf",
+      "chunk_id": 0
+    },
+    {
+      "type": "policy",
+      "filename": "Data In-Transit Policy_v2.0.pdf",
+      "source_path": "C:\\projects\\rag-playground\\grc\\policies\\Data In-Transit Policy_v2.0.pdf",
+      "chunk_id": 1
+    },
+    {
+      "type": "policy",
+      "filename": "Data In-Transit Policy_v2.0.pdf",
+      "source_path": "C:\\projects\\rag-playground\\grc\\policies\\Data In-Transit Policy_v2.0.pdf",
+      "chunk_id": 2
+    },
+    {
+      "type": "policy",
+      "filename": "Data In-Transit Policy_v2.0.pdf",
+      "source_path": "C:\\projects\\rag-playground\\grc\\policies\\Data In-Transit Policy_v2.0.pdf",
+      "chunk_id": 3
+    },
+    {
+      "type": "policy",
+      "filename": "Data In-Transit Policy_v2.0.pdf",
+      "source_path": "C:\\projects\\rag-playground\\grc\\policies\\Data In-Transit Policy_v2.0.pdf",
+      "chunk_id": 4
+    },
+    {
+      "type": "policy",
+      "filename": "Data In-Transit Policy_v2.0.pdf",
+      "source_path": "C:\\projects\\rag-playground\\grc\\policies\\Data In-Transit Policy_v2.0.pdf",
+      "chunk_id": 5
+    },
+    {
+      "type": "policy",
+      "filename": "Data In-Transit Policy_v2.0.pdf",
+      "source_path": "C:\\projects\\rag-playground\\grc\\policies\\Data In-Transit Policy_v2.0.pdf",
+      "chunk_id": 6
+    },
+    {
+      "type": "policy",
+      "filename": "Data In-Transit Policy_v2.0.pdf",
+      "source_path": "C:\\projects\\rag-playground\\grc\\policies\\Data In-Transit Policy_v2.0.pdf",
+      "chunk_id": 7
+    },
+    {
+      "type": "policy",
+      "filename": "Data In-Use Policy_v2.0.pdf",
+      "source_path": "C:\\projects\\rag-playground\\grc\\policies\\Data In-Use Policy_v2.0.pdf",
+      "chunk_id": 0
+    },
+    {
+      "type": "policy",
+      "filename": "Data In-Use Policy_v2.0.pdf",
+      "source_path": "C:\\projects\\rag-playground\\grc\\policies\\Data In-Use Policy_v2.0.pdf",
+      "chunk_id": 1
+    },
+    {
+      "type": "policy",
+      "filename": "Data In-Use Policy_v2.0.pdf",
+      "source_path": "C:\\projects\\rag-playground\\grc\\policies\\Data In-Use Policy_v2.0.pdf",
+      "chunk_id": 2
+    },
+    {
+      "type": "policy",
+      "filename": "Data In-Use Policy_v2.0.pdf",
+      "source_path": "C:\\projects\\rag-playground\\grc\\policies\\Data In-Use Policy_v2.0.pdf",
+      "chunk_id": 3
+    },
+    {
+      "type": "policy",
+      "filename": "Data In-Use Policy_v2.0.pdf",
+      "source_path": "C:\\projects\\rag-playground\\grc\\policies\\Data In-Use Policy_v2.0.pdf",
+      "chunk_id": 4
+    },
+    {
+      "type": "policy",
+      "filename": "Data In-Use Policy_v2.0.pdf",
+      "source_path": "C:\\projects\\rag-playground\\grc\\policies\\Data In-Use Policy_v2.0.pdf",
+      "chunk_id": 5
+    },
+    {
+      "type": "policy",
+      "filename": "Data In-Use Policy_v2.0.pdf",
+      "source_path": "C:\\projects\\rag-playground\\grc\\policies\\Data In-Use Policy_v2.0.pdf",
+      "chunk_id": 6
+    },
+    {
+      "type": "policy",
+      "filename": "Enterprise Encryption Policy_v1.0.pdf",
+      "source_path": "C:\\projects\\rag-playground\\grc\\policies\\Enterprise Encryption Policy_v1.0.pdf",
+      "chunk_id": 0
+    },
+    {
+      "type": "policy",
+      "filename": "Enterprise Encryption Policy_v1.0.pdf",
+      "source_path": "C:\\projects\\rag-playground\\grc\\policies\\Enterprise Encryption Policy_v1.0.pdf",
+      "chunk_id": 1
+    },
+    {
+      "type": "policy",
+      "filename": "Enterprise Encryption Policy_v1.0.pdf",
+      "source_path": "C:\\projects\\rag-playground\\grc\\policies\\Enterprise Encryption Policy_v1.0.pdf",
+      "chunk_id": 2
+    },
+    {
+      "type": "policy",
+      "filename": "Enterprise Encryption Policy_v1.0.pdf",
+      "source_path": "C:\\projects\\rag-playground\\grc\\policies\\Enterprise Encryption Policy_v1.0.pdf",
+      "chunk_id": 3
+    },
+    {
+      "type": "policy",
+      "filename": "Enterprise Encryption Policy_v1.0.pdf",
+      "source_path": "C:\\projects\\rag-playground\\grc\\policies\\Enterprise Encryption Policy_v1.0.pdf",
+      "chunk_id": 4
+    },
+    {
+      "type": "policy",
+      "filename": "Enterprise Encryption Policy_v1.0.pdf",
+      "source_path": "C:\\projects\\rag-playground\\grc\\policies\\Enterprise Encryption Policy_v1.0.pdf",
+      "chunk_id": 5
+    },
+    {
+      "type": "policy",
+      "filename": "Enterprise Encryption Policy_v1.0.pdf",
+      "source_path": "C:\\projects\\rag-playground\\grc\\policies\\Enterprise Encryption Policy_v1.0.pdf",
+      "chunk_id": 6
+    },
+    {
+      "type": "policy",
+      "filename": "Enterprise Encryption Policy_v1.0.pdf",
+      "source_path": "C:\\projects\\rag-playground\\grc\\policies\\Enterprise Encryption Policy_v1.0.pdf",
+      "chunk_id": 7
+    },
+    {
+      "type": "policy",
+      "filename": "Enterprise Encryption Policy_v1.0.pdf",
+      "source_path": "C:\\projects\\rag-playground\\grc\\policies\\Enterprise Encryption Policy_v1.0.pdf",
+      "chunk_id": 8
+    },
+    {
+      "type": "policy",
+      "filename": "Identity Onboarding and Offboarding Policy_v2.0.pdf",
+      "source_path": "C:\\projects\\rag-playground\\grc\\policies\\Identity Onboarding and Offboarding Policy_v2.0.pdf",
+      "chunk_id": 0
+    },
+    {
+      "type": "policy",
+      "filename": "Identity Onboarding and Offboarding Policy_v2.0.pdf",
+      "source_path": "C:\\projects\\rag-playground\\grc\\policies\\Identity Onboarding and Offboarding Policy_v2.0.pdf",
+      "chunk_id": 1
+    },
+    {
+      "type": "policy",
+      "filename": "Identity Onboarding and Offboarding Policy_v2.0.pdf",
+      "source_path": "C:\\projects\\rag-playground\\grc\\policies\\Identity Onboarding and Offboarding Policy_v2.0.pdf",
+      "chunk_id": 2
+    },
+    {
+      "type": "policy",
+      "filename": "Identity Onboarding and Offboarding Policy_v2.0.pdf",
+      "source_path": "C:\\projects\\rag-playground\\grc\\policies\\Identity Onboarding and Offboarding Policy_v2.0.pdf",
+      "chunk_id": 3
+    },
+    {
+      "type": "policy",
+      "filename": "Identity Onboarding and Offboarding Policy_v2.0.pdf",
+      "source_path": "C:\\projects\\rag-playground\\grc\\policies\\Identity Onboarding and Offboarding Policy_v2.0.pdf",
+      "chunk_id": 4
+    },
+    {
+      "type": "policy",
+      "filename": "Identity Onboarding and Offboarding Policy_v2.0.pdf",
+      "source_path": "C:\\projects\\rag-playground\\grc\\policies\\Identity Onboarding and Offboarding Policy_v2.0.pdf",
+      "chunk_id": 5
+    },
+    {
+      "type": "policy",
+      "filename": "Identity Onboarding and Offboarding Policy_v2.0.pdf",
+      "source_path": "C:\\projects\\rag-playground\\grc\\policies\\Identity Onboarding and Offboarding Policy_v2.0.pdf",
+      "chunk_id": 6
+    },
+    {
+      "type": "policy",
+      "filename": "Identity Onboarding and Offboarding Policy_v2.0.pdf",
+      "source_path": "C:\\projects\\rag-playground\\grc\\policies\\Identity Onboarding and Offboarding Policy_v2.0.pdf",
+      "chunk_id": 7
+    },
+    {
+      "type": "policy",
+      "filename": "Machines Identities and Secret Management Policy_v2.0.pdf",
+      "source_path": "C:\\projects\\rag-playground\\grc\\policies\\Machines Identities and Secret Management Policy_v2.0.pdf",
+      "chunk_id": 0
+    },
+    {
+      "type": "policy",
+      "filename": "Machines Identities and Secret Management Policy_v2.0.pdf",
+      "source_path": "C:\\projects\\rag-playground\\grc\\policies\\Machines Identities and Secret Management Policy_v2.0.pdf",
+      "chunk_id": 1
+    },
+    {
+      "type": "policy",
+      "filename": "Machines Identities and Secret Management Policy_v2.0.pdf",
+      "source_path": "C:\\projects\\rag-playground\\grc\\policies\\Machines Identities and Secret Management Policy_v2.0.pdf",
+      "chunk_id": 2
+    },
+    {
+      "type": "policy",
+      "filename": "Machines Identities and Secret Management Policy_v2.0.pdf",
+      "source_path": "C:\\projects\\rag-playground\\grc\\policies\\Machines Identities and Secret Management Policy_v2.0.pdf",
+      "chunk_id": 3
+    },
+    {
+      "type": "policy",
+      "filename": "Machines Identities and Secret Management Policy_v2.0.pdf",
+      "source_path": "C:\\projects\\rag-playground\\grc\\policies\\Machines Identities and Secret Management Policy_v2.0.pdf",
+      "chunk_id": 4
+    },
+    {
+      "type": "policy",
+      "filename": "Machines Identities and Secret Management Policy_v2.0.pdf",
+      "source_path": "C:\\projects\\rag-playground\\grc\\policies\\Machines Identities and Secret Management Policy_v2.0.pdf",
+      "chunk_id": 5
+    },
+    {
+      "type": "policy",
+      "filename": "Machines Identities and Secret Management Policy_v2.0.pdf",
+      "source_path": "C:\\projects\\rag-playground\\grc\\policies\\Machines Identities and Secret Management Policy_v2.0.pdf",
+      "chunk_id": 6
+    },
+    {
+      "type": "policy",
+      "filename": "Machines Identities and Secret Management Policy_v2.0.pdf",
+      "source_path": "C:\\projects\\rag-playground\\grc\\policies\\Machines Identities and Secret Management Policy_v2.0.pdf",
+      "chunk_id": 7
+    },
+    {
+      "type": "policy",
+      "filename": "Passwordless and MFA Policy_v2.0.pdf",
+      "source_path": "C:\\projects\\rag-playground\\grc\\policies\\Passwordless and MFA Policy_v2.0.pdf",
+      "chunk_id": 0
+    },
+    {
+      "type": "policy",
+      "filename": "Passwordless and MFA Policy_v2.0.pdf",
+      "source_path": "C:\\projects\\rag-playground\\grc\\policies\\Passwordless and MFA Policy_v2.0.pdf",
+      "chunk_id": 1
+    },
+    {
+      "type": "policy",
+      "filename": "Passwordless and MFA Policy_v2.0.pdf",
+      "source_path": "C:\\projects\\rag-playground\\grc\\policies\\Passwordless and MFA Policy_v2.0.pdf",
+      "chunk_id": 2
+    },
+    {
+      "type": "policy",
+      "filename": "Passwordless and MFA Policy_v2.0.pdf",
+      "source_path": "C:\\projects\\rag-playground\\grc\\policies\\Passwordless and MFA Policy_v2.0.pdf",
+      "chunk_id": 3
+    },
+    {
+      "type": "policy",
+      "filename": "Passwordless and MFA Policy_v2.0.pdf",
+      "source_path": "C:\\projects\\rag-playground\\grc\\policies\\Passwordless and MFA Policy_v2.0.pdf",
+      "chunk_id": 4
+    },
+    {
+      "type": "policy",
+      "filename": "Passwordless and MFA Policy_v2.0.pdf",
+      "source_path": "C:\\projects\\rag-playground\\grc\\policies\\Passwordless and MFA Policy_v2.0.pdf",
+      "chunk_id": 5
+    },
+    {
+      "type": "policy",
+      "filename": "Passwordless and MFA Policy_v2.0.pdf",
+      "source_path": "C:\\projects\\rag-playground\\grc\\policies\\Passwordless and MFA Policy_v2.0.pdf",
+      "chunk_id": 6
+    },
+    {
+      "type": "policy",
+      "filename": "Passwordless and MFA Policy_v2.0.pdf",
+      "source_path": "C:\\projects\\rag-playground\\grc\\policies\\Passwordless and MFA Policy_v2.0.pdf",
+      "chunk_id": 7
+    },
+    {
+      "type": "policy",
+      "filename": "Privileged Authentication Policy_v2.0.pdf",
+      "source_path": "C:\\projects\\rag-playground\\grc\\policies\\Privileged Authentication Policy_v2.0.pdf",
+      "chunk_id": 0
+    },
+    {
+      "type": "policy",
+      "filename": "Privileged Authentication Policy_v2.0.pdf",
+      "source_path": "C:\\projects\\rag-playground\\grc\\policies\\Privileged Authentication Policy_v2.0.pdf",
+      "chunk_id": 1
+    },
+    {
+      "type": "policy",
+      "filename": "Privileged Authentication Policy_v2.0.pdf",
+      "source_path": "C:\\projects\\rag-playground\\grc\\policies\\Privileged Authentication Policy_v2.0.pdf",
+      "chunk_id": 2
+    },
+    {
+      "type": "policy",
+      "filename": "Privileged Authentication Policy_v2.0.pdf",
+      "source_path": "C:\\projects\\rag-playground\\grc\\policies\\Privileged Authentication Policy_v2.0.pdf",
+      "chunk_id": 3
+    },
+    {
+      "type": "policy",
+      "filename": "Privileged Authentication Policy_v2.0.pdf",
+      "source_path": "C:\\projects\\rag-playground\\grc\\policies\\Privileged Authentication Policy_v2.0.pdf",
+      "chunk_id": 4
+    },
+    {
+      "type": "policy",
+      "filename": "Privileged Authentication Policy_v2.0.pdf",
+      "source_path": "C:\\projects\\rag-playground\\grc\\policies\\Privileged Authentication Policy_v2.0.pdf",
+      "chunk_id": 5
+    },
+    {
+      "type": "policy",
+      "filename": "Privileged Authentication Policy_v2.0.pdf",
+      "source_path": "C:\\projects\\rag-playground\\grc\\policies\\Privileged Authentication Policy_v2.0.pdf",
+      "chunk_id": 6
+    },
+    {
+      "type": "policy",
+      "filename": "Privileged Authentication Policy_v2.0.pdf",
+      "source_path": "C:\\projects\\rag-playground\\grc\\policies\\Privileged Authentication Policy_v2.0.pdf",
+      "chunk_id": 7
+    },
+    {
+      "type": "policy",
+      "filename": "Remote Access Policy_v1.0.pdf",
+      "source_path": "C:\\projects\\rag-playground\\grc\\policies\\Remote Access Policy_v1.0.pdf",
+      "chunk_id": 0
+    },
+    {
+      "type": "policy",
+      "filename": "Remote Access Policy_v1.0.pdf",
+      "source_path": "C:\\projects\\rag-playground\\grc\\policies\\Remote Access Policy_v1.0.pdf",
+      "chunk_id": 1
+    },
+    {
+      "type": "policy",
+      "filename": "Remote Access Policy_v1.0.pdf",
+      "source_path": "C:\\projects\\rag-playground\\grc\\policies\\Remote Access Policy_v1.0.pdf",
+      "chunk_id": 2
+    },
+    {
+      "type": "policy",
+      "filename": "Remote Access Policy_v1.0.pdf",
+      "source_path": "C:\\projects\\rag-playground\\grc\\policies\\Remote Access Policy_v1.0.pdf",
+      "chunk_id": 3
+    },
+    {
+      "type": "policy",
+      "filename": "Remote Access Policy_v1.0.pdf",
+      "source_path": "C:\\projects\\rag-playground\\grc\\policies\\Remote Access Policy_v1.0.pdf",
+      "chunk_id": 4
+    },
+    {
+      "type": "policy",
+      "filename": "Remote Access Policy_v1.0.pdf",
+      "source_path": "C:\\projects\\rag-playground\\grc\\policies\\Remote Access Policy_v1.0.pdf",
+      "chunk_id": 5
+    },
+    {
+      "type": "policy",
+      "filename": "Remote Access Policy_v1.0.pdf",
+      "source_path": "C:\\projects\\rag-playground\\grc\\policies\\Remote Access Policy_v1.0.pdf",
+      "chunk_id": 6
+    },
+    {
+      "type": "policy",
+      "filename": "Remote Access Policy_v1.0.pdf",
+      "source_path": "C:\\projects\\rag-playground\\grc\\policies\\Remote Access Policy_v1.0.pdf",
+      "chunk_id": 7
+    },
+    {
+      "type": "policy",
+      "filename": "Zero Trust Authentication Policy_v2.0.pdf",
+      "source_path": "C:\\projects\\rag-playground\\grc\\policies\\Zero Trust Authentication Policy_v2.0.pdf",
+      "chunk_id": 0
+    },
+    {
+      "type": "policy",
+      "filename": "Zero Trust Authentication Policy_v2.0.pdf",
+      "source_path": "C:\\projects\\rag-playground\\grc\\policies\\Zero Trust Authentication Policy_v2.0.pdf",
+      "chunk_id": 1
+    },
+    {
+      "type": "policy",
+      "filename": "Zero Trust Authentication Policy_v2.0.pdf",
+      "source_path": "C:\\projects\\rag-playground\\grc\\policies\\Zero Trust Authentication Policy_v2.0.pdf",
+      "chunk_id": 2
+    },
+    {
+      "type": "policy",
+      "filename": "Zero Trust Authentication Policy_v2.0.pdf",
+      "source_path": "C:\\projects\\rag-playground\\grc\\policies\\Zero Trust Authentication Policy_v2.0.pdf",
+      "chunk_id": 3
+    },
+    {
+      "type": "policy",
+      "filename": "Zero Trust Authentication Policy_v2.0.pdf",
+      "source_path": "C:\\projects\\rag-playground\\grc\\policies\\Zero Trust Authentication Policy_v2.0.pdf",
+      "chunk_id": 4
+    },
+    {
+      "type": "policy",
+      "filename": "Zero Trust Authentication Policy_v2.0.pdf",
+      "source_path": "C:\\projects\\rag-playground\\grc\\policies\\Zero Trust Authentication Policy_v2.0.pdf",
+      "chunk_id": 5
+    },
+    {
+      "type": "policy",
+      "filename": "Zero Trust Authentication Policy_v2.0.pdf",
+      "source_path": "C:\\projects\\rag-playground\\grc\\policies\\Zero Trust Authentication Policy_v2.0.pdf",
+      "chunk_id": 6
+    },
+    {
+      "type": "policy",
+      "filename": "Zero Trust Authentication Policy_v2.0.pdf",
+      "source_path": "C:\\projects\\rag-playground\\grc\\policies\\Zero Trust Authentication Policy_v2.0.pdf",
+      "chunk_id": 7
+    }
+  ]
+}
