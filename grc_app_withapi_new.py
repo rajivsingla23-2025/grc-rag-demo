@@ -97,14 +97,15 @@ with st.sidebar:
             "Uses Mistral hosted API.\n\n"
             "✔ Public Hosted LLM \n\n"
             "✔ No local model required\n\n"
-            "Can use Sec-LLMs for security contextual feeds."
+            "Can use Sec-LLMs for security contextual feeds"
         )
 
     else:
         st.info(
             "Uses local Mistral LLM model.\n\n"
             "✔ Private DC/ Air-gapped Env \n\n"
-            "✔ Requires local model file"
+            "✔ Requires local model file\n\n"
+            "No Local LLM hosted hence will not generate LLM Answer"
         )
 
         st.text(f"Model dir: {DEFAULT_MODEL_DIR}")
@@ -1095,6 +1096,7 @@ if submit:
     
 st.markdown("---")
 st.caption("Notes: This demo is created with few sample policies (from templates) of ficticious organization ABC. Keep your policies & controls in protected storage. Rebuild the FAISS index after updating policies/controls.")
+
 
 
 
