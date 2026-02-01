@@ -97,7 +97,7 @@ with st.sidebar:
             "Uses Mistral hosted API.\n\n"
             "✔ Public Hosted LLM \n\n"
             "✔ No local model required\n\n"
-            "Set `MISTRAL_API_KEY` in environment or Streamlit secrets."
+            "Can use Sec-LLMs for security contextual feeds."
         )
 
     else:
@@ -1095,5 +1095,6 @@ if submit:
     
 st.markdown("---")
 st.caption("Notes: This demo is created with few sample policies (from templates) of ficticious organization ABC. Keep your policies & controls in protected storage. Rebuild the FAISS index after updating policies/controls.")
+
 
 
