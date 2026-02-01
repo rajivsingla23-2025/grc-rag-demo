@@ -103,7 +103,7 @@ with st.sidebar:
     else:
         st.info(
             "Uses local Mistral LLM model.\n\n"
-            "✔ Private DC/Cloud LLM \n\n"
+            "✔ Private DC/ Air-gapped Env \n\n"
             "✔ Requires local model file"
         )
 
@@ -1095,4 +1095,5 @@ if submit:
     
 st.markdown("---")
 st.caption("Notes: This demo is created with few sample policies (from templates) of ficticious organization ABC. Keep your policies & controls in protected storage. Rebuild the FAISS index after updating policies/controls.")
+
 
