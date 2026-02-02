@@ -636,13 +636,17 @@ def generate_with_mistral_api(prompt: str, temperature: float = 0.2, max_tokens:
 def generate_answer(prompt: str):
     backend = st.session_state.get("llm_backend")
 
+    # -------------------------------
+    # Cloud Mistral (SAFE)
+    # -------------------------------
     if backend == "Mistral API (Cloud)":
-        st.info("Using Mistral API (Cloud)")
         st.session_state.model_loaded_info = "Mistral API (Cloud)"
         return generate_with_mistral_api(prompt)
 
+    # -------------------------------
+    # Local LLM (BLOCK ON CLOUD)
+    # -------------------------------
     elif backend == "Mistral LLM (Local)":
-        st.info("Using Local Mistral LLM (GPT4All)")
 
         model_obj = ensure_gpt_model_loaded(
             model_dir=str(DEFAULT_MODEL_DIR),
@@ -653,33 +657,27 @@ def generate_answer(prompt: str):
             allow_download=ALLOW_DOWNLOAD,
         )
 
+        # 🚫 HARD BLOCK WITH CLEAN UI MESSAGE
         if model_obj is None:
-            raise RuntimeError("Local LLM could not be loaded")
+            st.error(
+                "🚫 Local LLM is not available on Streamlit Cloud. You can have Local LLM in your Private DC/ Air-Gapped environment. \n\n"
+                "Please switch to **Mistral API (Cloud)** from the sidebar."
+            )
+            st.stop()   # ⛔ STOP execution cleanly (NO traceback)
 
-        # ✅ HARD REQUIREMENT for Mistral GGUF
         local_prompt = wrap_for_local_mistral(prompt)
 
-        output = generate_with_llm(
+        return generate_with_llm(
             model_obj,
             local_prompt,
-            n_predict=900,      # 🔑 important
+            n_predict=900,
             temp=0.1,
             top_p=0.9,
         )
 
-        # ✅ Fail loudly if model is silent
-        if not output or not output.strip():
-            raise RuntimeError(
-                "Local LLM returned empty output. "
-                "Increase n_predict or verify GGUF model integrity."
-            )
-        st.code(output[:1000], language="text")
-        st.session_state.model_loaded_info = f"Local LLM ({DEFAULT_MODEL_FILENAME})"
-        return output.strip()
-
     else:
-        raise RuntimeError(f"Invalid LLM backend selection: {backend}")
-
+        st.error("Invalid LLM backend selection.")
+        st.stop()
 
 # ---------------- UI layout ----------------
 left_col, right_col = st.columns((3, 1))
@@ -1096,6 +1094,7 @@ if submit:
     
 st.markdown("---")
 st.caption("Notes: This demo is created with few sample policies (from templates) of ficticious organization ABC. Keep your policies & controls in protected storage. Rebuild the FAISS index after updating policies/controls.")
+
 
 
 
