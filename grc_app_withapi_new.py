@@ -636,6 +636,14 @@ def generate_with_mistral_api(prompt: str, temperature: float = 0.2, max_tokens:
 def generate_answer(prompt: str):
     backend = st.session_state.get("llm_backend")
 
+    # 🚫 HARD BLOCK LOCAL LLM ON STREAMLIT CLOUD
+    if backend == "Mistral LLM (Local)" and not HAS_GPT4ALL:
+        st.error(
+            "🚫 Local LLM is not supported on Streamlit Community Cloud.\n\n"
+            "Please switch to **Mistral API (Cloud)** from the sidebar."
+        )
+        st.stop()   # ⛔ prevents ANY further execution
+
     # -------------------------------
     # Cloud Mistral (SAFE)
     # -------------------------------
@@ -644,7 +652,7 @@ def generate_answer(prompt: str):
         return generate_with_mistral_api(prompt)
 
     # -------------------------------
-    # Local LLM (BLOCK ON CLOUD)
+    # Local LLM (ONLY IF AVAILABLE)
     # -------------------------------
     elif backend == "Mistral LLM (Local)":
 
@@ -657,13 +665,9 @@ def generate_answer(prompt: str):
             allow_download=ALLOW_DOWNLOAD,
         )
 
-        # 🚫 HARD BLOCK WITH CLEAN UI MESSAGE
         if model_obj is None:
-            st.error(
-                "🚫 Local LLM is not available on Streamlit Cloud. You can have Local LLM in your Private DC/ Air-Gapped environment. \n\n"
-                "Please switch to **Mistral API (Cloud)** from the sidebar."
-            )
-            st.stop()   # ⛔ STOP execution cleanly (NO traceback)
+            st.error("🚫 Local LLM model file not found.")
+            st.stop()
 
         local_prompt = wrap_for_local_mistral(prompt)
 
@@ -675,9 +679,6 @@ def generate_answer(prompt: str):
             top_p=0.9,
         )
 
-    else:
-        st.error("Invalid LLM backend selection.")
-        st.stop()
 
 # ---------------- UI layout ----------------
 left_col, right_col = st.columns((3, 1))
@@ -1094,6 +1095,7 @@ if submit:
     
 st.markdown("---")
 st.caption("Notes: This demo is created with few sample policies (from templates) of ficticious organization ABC. Keep your policies & controls in protected storage. Rebuild the FAISS index after updating policies/controls.")
+
 
 
 
