@@ -72,7 +72,7 @@ SUPPORTED_FRAMEWORKS = {
 
 
 st.set_page_config(page_title="GRC RAG — Embedding + FAISS & Metadata + LLM Mistral", layout="wide")
-st.title("Cybersecurity GRC RAG with LLM")
+st.title("Cybersecurity GRC Determenisitc RAG with LLM Framework for Compliance")
 st.markdown("### **Embedding Model • FAISS Index • Metadata • LLM Mistral • GPT4ALL**")
  
 # --- Sidebar: model, index, runtime settings ---
@@ -1095,6 +1095,7 @@ if submit:
     
 st.markdown("---")
 st.caption("Notes: Few sample policies (from templates) has been created for ficticious organization ABC as inputs for this demo. Keep your actual policies & controls in protected storage. Rebuild the FAISS index after updating policies/controls.")
+
 
 
 
