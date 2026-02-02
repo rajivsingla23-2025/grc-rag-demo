@@ -639,7 +639,7 @@ def generate_answer(prompt: str):
     # 🚫 HARD BLOCK LOCAL LLM ON STREAMLIT CLOUD
     if backend == "Mistral LLM (Local)" and not HAS_GPT4ALL:
         st.error(
-            "🚫 Local LLM is not supported on Streamlit Community Cloud.\n\n"
+            "🚫 Local LLM is not supported on Streamlit Cloud. You can have Local LLM in your Private DC/ Air-Gapped environment.\n\n"
             "Please switch to **Mistral API (Cloud)** from the sidebar."
         )
         st.stop()   # ⛔ prevents ANY further execution
@@ -1095,6 +1095,7 @@ if submit:
     
 st.markdown("---")
 st.caption("Notes: This demo is created with few sample policies (from templates) of ficticious organization ABC. Keep your policies & controls in protected storage. Rebuild the FAISS index after updating policies/controls.")
+
 
 
 
