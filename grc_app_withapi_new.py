@@ -1094,7 +1094,8 @@ if submit:
                 )
     
 st.markdown("---")
-st.caption("Notes: This demo is created with few sample policies (from templates) of ficticious organization ABC. Keep your policies & controls in protected storage. Rebuild the FAISS index after updating policies/controls.")
+st.caption("Notes: Few sample policies (from templates) has been created for ficticious organization ABC as inputs for this demo. Keep your actual policies & controls in protected storage. Rebuild the FAISS index after updating policies/controls.")
+
 
 
 
